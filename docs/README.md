@@ -106,13 +106,11 @@ Os modelos são instrumentos de apoio. Sua aplicação em uma organização exig
 - [Modelo de Avaliação de Fornecedores e Terceiros](16-modelos-e-registros/modelo-de-avaliacao-de-fornecedores-e-terceiros.md)
 - [Modelo de Registro de Treinamentos e Conscientização](16-modelos-e-registros/modelo-de-registro-de-treinamentos-e-conscientizacao.md)
 
-### 5.6. Outros modelos da biblioteca
+### 5.6. Conferência da biblioteca
 
-- [Modelo de Registro de Gestão de Acessos e Revisão de Permissões](16-modelos-e-registros/modelo-de-registro-de-gestao-de-acessos-e-revisao-de-permissoes.md)
-- [Modelo de Registro de Gestão de Mudanças](16-modelos-e-registros/modelo-de-registro-de-gestao-de-mudancas.md)
-- [Modelo de Registro de Vulnerabilidades e Gestão de Correções](16-modelos-e-registros/modelo-de-registro-de-vulnerabilidades-e-gestao-de-correcoes.md)
+A biblioteca contém os modelos acima, totalizando 17 arquivos. A relação deve ser revisada sempre que novos modelos forem adicionados, renomeados ou removidos.
 
-A biblioteca deve ser ampliada e revisada conforme a identificação de lacunas documentais, novas necessidades e resultados da revisão técnica.
+A publicação de um modelo não comprova seu preenchimento, sua aprovação ou sua utilização em uma organização.
 
 ## 6. Referências técnicas, normativas e glossário
 
@@ -138,7 +136,7 @@ Entre as referências utilizadas no projeto estão:
 - ISO/IEC 27002:2022 — orientações para controles de Segurança da Informação.
 - ISO/IEC 27005 — orientações para gestão de riscos de Segurança da Informação.
 - ISO 31000 — diretrizes gerais para gestão de riscos.
-- ISO 19011 — diretrizes para auditoria de sistemas de gestão.
+- ISO 19011:2026 — diretrizes para auditoria de sistemas de gestão.
 - ISO/IEC 17021-1 — requisitos para organismos que auditam e certificam sistemas de gestão.
 - Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais (LGPD), quando aplicável.
 
