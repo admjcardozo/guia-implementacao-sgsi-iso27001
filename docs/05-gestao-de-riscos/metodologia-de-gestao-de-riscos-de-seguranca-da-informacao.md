@@ -19,17 +19,20 @@ Este documento apresenta uma metodologia de referência que deve ser adaptada ao
 
 A metodologia considera como referências principais:
 
-- **ISO/IEC 27001:2022** — requisitos para sistemas de gestão de segurança da informação, especialmente a cláusula 6.1.2, relativa à avaliação de riscos de segurança da informação, e a cláusula 6.1.3, relativa ao tratamento desses riscos.
+- **ISO/IEC 27001:2022**, incluindo a Emenda 1:2024 — requisitos para sistemas de gestão de segurança da informação, especialmente as cláusulas 6.1.2, relativa à avaliação de riscos de segurança da informação, e 6.1.3, relativa ao tratamento desses riscos.
+- **ISO/IEC 27005:2022** — orientação específica para a gestão de riscos de segurança da informação.
 - **ISO/IEC 27002:2022** — orientações de referência para controles de segurança da informação.
-- **ISO 31000** — princípios e orientações gerais para gestão de riscos, quando adotada como referência complementar.
+- **ISO 31000:2018** — princípios e orientações gerais para gestão de riscos, quando adotada como referência complementar.
 
-A organização deve verificar a edição aplicável das normas e assegurar que os requisitos utilizados na implementação correspondam às versões oficialmente adotadas.
+A Emenda 1:2024 da ISO/IEC 27001 introduz considerações relacionadas às mudanças climáticas no contexto dos sistemas de gestão. A organização deve avaliar se as mudanças climáticas constituem questão relevante para seu contexto e se as partes interessadas pertinentes possuem requisitos relacionados a esse tema. A relevância deve ser determinada e documentada com base nas circunstâncias da organização, sem presumir que esse fator seja automaticamente um risco de segurança da informação em todos os contextos.
+
+A organização deve verificar as edições e emendas aplicáveis das normas e assegurar que os requisitos utilizados na implementação correspondam às versões oficialmente adotadas.
 
 Este documento não reproduz o texto integral das normas. A consulta às publicações oficiais é necessária para confirmar os requisitos normativos.
 
 ## 3. Princípios da metodologia
 
-A gestão de riscos deve observar os seguintes princípios:
+A gestão de riscos deve observar os seguintes princípios.
 
 ### 3.1. Adequação ao contexto
 
@@ -42,6 +45,8 @@ A metodologia deve permitir que avaliações realizadas por pessoas diferentes p
 ### 3.3. Rastreabilidade
 
 Cada risco deve possuir identificação única e informações suficientes para relacionar o cenário de risco, os critérios utilizados, a avaliação realizada, a decisão tomada e as ações de tratamento.
+
+A rastreabilidade deve permitir identificar a relação entre a avaliação de riscos, as opções de tratamento selecionadas, os controles necessários, a Declaração de Aplicabilidade (SoA), o Plano de Tratamento de Riscos e as decisões de aceitação dos riscos residuais.
 
 ### 3.4. Fundamentação em evidências
 
@@ -96,6 +101,8 @@ Os papéis acima são referências metodológicas, não uma estrutura organizaci
 
 A organização deve documentar quem pode aprovar planos de tratamento, aceitar riscos e autorizar exceções, considerando a relevância do risco e os limites de autoridade definidos.
 
+A responsabilidade pela avaliação técnica de um risco não significa, por si só, autoridade para aceitá-lo. A organização deve estabelecer e documentar os limites de decisão e a autoridade dos proprietários dos riscos e das demais funções envolvidas.
+
 ## 6. Etapas do processo de gestão de riscos
 
 O processo de referência compreende as seguintes etapas:
@@ -105,12 +112,17 @@ O processo de referência compreende as seguintes etapas:
 3. analisar riscos;
 4. avaliar e priorizar riscos;
 5. selecionar opções de tratamento;
-6. aprovar e implementar o tratamento;
-7. avaliar o risco residual;
-8. registrar decisões e comunicar resultados;
-9. monitorar e revisar os riscos.
+6. determinar os controles necessários e realizar a comparação com o Anexo A;
+7. documentar as decisões na SoA e no Plano de Tratamento de Riscos;
+8. aprovar o plano de tratamento e obter as aprovações pertinentes;
+9. implementar e acompanhar o tratamento;
+10. reavaliar os riscos residuais;
+11. obter e registrar a aceitação formal dos riscos residuais pelos proprietários dos riscos, conforme aplicável;
+12. monitorar, comunicar e revisar os riscos.
 
 Essas etapas formam um fluxo metodológico. A organização pode integrá-las aos processos de gestão existentes, desde que preserve os requisitos aplicáveis e a rastreabilidade das decisões.
+
+A sequência representa uma referência de trabalho e não deve ser interpretada como substituta dos requisitos específicos da ISO/IEC 27001:2022.
 
 ## 7. Estabelecimento dos critérios de risco
 
@@ -246,6 +258,14 @@ Se houver análise de risco residual, a documentação deve identificar quais co
 
 A mera existência de uma política, procedimento ou ferramenta não comprova, por si só, que o controle está implementado ou que opera eficazmente.
 
+A metodologia deve distinguir claramente:
+
+- **risco inerente:** estimativa do risco antes de considerar os controles existentes, conforme a convenção adotada;
+- **risco atual ou avaliado:** risco estimado considerando as condições e os controles existentes, quando essa abordagem for utilizada;
+- **risco residual após tratamento:** risco remanescente após a implementação e a avaliação das medidas de tratamento.
+
+A organização deve definir qual dessas avaliações será utilizada em cada etapa e evitar comparações entre resultados calculados com premissas diferentes.
+
 ## 10. Avaliação e priorização
 
 A avaliação compara os resultados da análise com os critérios de risco aprovados.
@@ -262,6 +282,8 @@ O processo deve permitir:
 A priorização não deve considerar apenas a pontuação calculada. Obrigações legais, regulatórias ou contratuais, impactos sobre pessoas, compromissos com clientes e outras condições relevantes podem exigir tratamento ou escalonamento independentemente do resultado numérico.
 
 A decisão de aceitar um risco deve ser registrada e aprovada por pessoa ou função com autoridade apropriada. A aceitação não elimina o risco nem substitui obrigações aplicáveis.
+
+Quando o risco estiver fora dos critérios de aceitação, a organização deve avaliar opções de tratamento ou escalonar a decisão conforme a governança estabelecida. Uma decisão de aceitação excepcional não deve ser usada para afastar obrigações legais, regulatórias ou contratuais aplicáveis.
 
 ## 11. Registro de riscos
 
@@ -280,6 +302,7 @@ Como estrutura de referência, recomenda-se manter os seguintes campos:
 | Impacto | Documentar a classificação e sua justificativa. |
 | Probabilidade | Documentar a classificação e sua justificativa. |
 | Nível de risco | Registrar o resultado segundo a metodologia adotada. |
+| Base da avaliação | Indicar se o resultado representa risco inerente, risco atual ou outra condição definida. |
 | Critério de aceitação | Identificar o critério aplicado à decisão. |
 | Decisão | Registrar tratamento, aceitação ou outra decisão fundamentada. |
 | Plano de tratamento | Referenciar as ações necessárias, quando aplicável. |
@@ -287,6 +310,7 @@ Como estrutura de referência, recomenda-se manter os seguintes campos:
 | Prazo | Registrar a data-alvo aprovada. |
 | Risco residual | Registrar a avaliação após o tratamento, quando realizada. |
 | Aprovação | Identificar a autoridade que aprovou a decisão. |
+| Aceitação do risco residual | Registrar a decisão formal do proprietário do risco, quando aplicável. |
 | Situação | Indicar o estado atual do risco e das ações. |
 | Histórico de revisão | Preservar alterações e decisões relevantes. |
 
@@ -307,9 +331,11 @@ Entre as opções metodológicas possíveis estão:
 
 Essas opções devem ser avaliadas considerando sua adequação ao cenário, seus custos, seus efeitos esperados, as obrigações aplicáveis e os riscos remanescentes.
 
-A seleção de controles deve considerar os requisitos da ISO/IEC 27001:2022, os resultados da avaliação de riscos e as necessidades da organização.
+A seleção de controles deve considerar os requisitos da ISO/IEC 27001:2022, incluindo a emenda aplicável, os resultados da avaliação de riscos e as necessidades da organização.
 
 A aplicação desta metodologia deve ser integrada ao documento específico de tratamento de riscos e à elaboração da Declaração de Aplicabilidade (SoA). Esses documentos devem manter rastreabilidade entre os riscos, as decisões de tratamento e os controles selecionados.
+
+A aprovação do plano de tratamento, a implementação das ações, a verificação dos controles e a aceitação do risco residual são etapas distintas. A organização deve registrar cada decisão pertinente e identificar seus responsáveis.
 
 ## 13. Monitoramento e revisão
 
@@ -325,11 +351,14 @@ Eventos que podem justificar revisão incluem:
 - falhas ou alterações nos controles;
 - resultados de auditorias e avaliações;
 - alterações em obrigações legais, regulatórias ou contratuais;
-- mudanças relevantes no escopo do SGSI.
+- mudanças relevantes no escopo do SGSI;
+- alterações no contexto climático, quando identificadas como relevantes para o contexto organizacional ou para os riscos de segurança da informação.
 
 A organização deve definir periodicidade, responsáveis e gatilhos de revisão compatíveis com a criticidade dos riscos.
 
 O encerramento de uma ação de tratamento não deve ser confundido com o encerramento automático do risco. A necessidade de acompanhamento deve ser determinada conforme o cenário, os controles implementados e os critérios aplicáveis.
+
+Quando a reavaliação indicar que o risco residual permanece acima dos critérios de aceitação, devem ser avaliadas medidas adicionais ou o escalonamento da decisão.
 
 ## 14. Evidências e registros do processo
 
@@ -346,7 +375,10 @@ Como exemplos de registros que podem ser mantidos, conforme aplicável:
 - resultados de reavaliações;
 - histórico de alterações;
 - comunicações sobre riscos relevantes;
-- registros de acompanhamento das ações.
+- registros de acompanhamento das ações;
+- evidências que sustentem a avaliação dos controles existentes;
+- registros de aprovação do plano de tratamento;
+- registros de aceitação dos riscos residuais pelos respectivos proprietários, conforme aplicável.
 
 Esses itens constituem exemplos de evidências. A seleção e a extensão dos registros devem considerar os requisitos normativos aplicáveis, o contexto e as necessidades de demonstração de conformidade.
 
@@ -363,11 +395,14 @@ Antes de considerar a metodologia apta para utilização, devem ser avaliados os
 - [ ] Os cenários descrevem eventos e consequências compreensíveis.
 - [ ] As premissas e limitações relevantes são documentadas.
 - [ ] Os controles existentes são considerados com base em informações disponíveis.
+- [ ] A base da avaliação — inerente, atual ou residual — está identificada.
 - [ ] As decisões de tratamento e aceitação possuem justificativas.
 - [ ] As responsabilidades e autoridades estão definidas.
+- [ ] A aprovação do plano e a aceitação dos riscos residuais são tratadas como decisões distintas.
 - [ ] A metodologia prevê monitoramento e revisão.
-- [ ] Existe rastreabilidade entre avaliação, tratamento e controles selecionados.
+- [ ] Existe rastreabilidade entre avaliação, tratamento, SoA e controles selecionados.
 - [ ] Os registros necessários estão sujeitos a controles apropriados.
+- [ ] As referências normativas e suas edições aplicáveis foram verificadas.
 
 A conclusão dessa verificação indica que a metodologia foi revisada segundo os critérios estabelecidos. Não representa, isoladamente, evidência de que o SGSI esteja implementado ou em conformidade integral com a norma.
 
@@ -385,7 +420,8 @@ Antes de utilizar o modelo em um SGSI real, a organização deve:
 4. designar responsáveis e autoridades;
 5. documentar as evidências e premissas das avaliações;
 6. integrar os resultados ao processo de tratamento de riscos e à SoA;
-7. revisar a metodologia à luz dos requisitos normativos e das necessidades organizacionais.
+7. definir como aprovar o plano de tratamento e registrar a aceitação dos riscos residuais;
+8. revisar a metodologia à luz dos requisitos normativos e das necessidades organizacionais.
 
 Nenhuma escala, matriz ou exemplo deste documento deve ser interpretado como uma exigência universal da ISO/IEC 27001:2022.
 
@@ -409,7 +445,10 @@ A existência desses documentos no repositório representa uma estrutura documen
 ## 18. Referências
 
 - ISO/IEC 27001:2022 — Information security, cybersecurity and privacy protection — Information security management systems — Requirements.
+- ISO/IEC 27001:2022/Amd 1:2024 — Information security, cybersecurity and privacy protection — Information security management systems — Requirements — Amendment 1: Climate action changes.
+- ISO/IEC 27005:2022 — Guidance on managing information security risks.
 - ISO/IEC 27002:2022 — Information security, cybersecurity and privacy protection — Information security controls.
-- ISO 31000 — Risk management — Guidelines.
+- ISO 31000:2018 — Risk management — Guidelines.
 
-Consultar as publicações oficiais para confirmar requisitos, definições e orientações aplicáveis.
+Consultar as publicações oficiais para confirmar os requisitos, as definições, as edições e as orientações aplicáveis.
+
