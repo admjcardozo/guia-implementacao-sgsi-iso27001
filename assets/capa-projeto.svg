@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">Guia Técnico de Implementação do SGSI — ISO/IEC 27001:2022</title>
+<desc id="desc">Capa do guia técnico autoral para implementação de um SGSI, gestão de riscos, controles e documentação de apoio, versão 1.0.0.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07162f"/><stop offset=".55" stop-color="#082b4a"/><stop offset="1" stop-color="#064f5b"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#39e1c2"/><stop offset="1" stop-color="#53a9ff"/></linearGradient>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8ff4e0" stroke-opacity=".07" stroke-width="1"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="15"/></filter>
+</defs>
+<rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+<rect width="1280" height="640" rx="28" fill="url(#grid)"/>
+<circle cx="1005" cy="260" r="210" fill="#1be0c0" opacity=".10" filter="url(#glow)"/>
+<g stroke="#56d8d0" stroke-opacity=".32" fill="none">
+ <path d="M800 83L900 140L1010 75L1120 145L1210 83M800 83V200L900 265L1010 205L1120 265L1210 205M900 140V265M1010 75V205M1120 145V265"/>
+ <circle cx="800" cy="83" r="5" fill="#56d8d0"/><circle cx="900" cy="140" r="5" fill="#56d8d0"/><circle cx="1010" cy="75" r="5" fill="#56d8d0"/><circle cx="1120" cy="145" r="5" fill="#56d8d0"/><circle cx="1210" cy="83" r="5" fill="#56d8d0"/>
+</g>
+<rect x="64" y="54" width="370" height="38" rx="19" fill="#103a50" stroke="#31d6bf" stroke-opacity=".8"/>
+<circle cx="85" cy="73" r="5" fill="#48e3c9"/>
+<text x="103" y="80" fill="#b8fff1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2">PROJETO AUTORAL • SEGURANÇA</text>
+<text x="64" y="153" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Guia Técnico de</text>
+<text x="64" y="211" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Implementação do SGSI</text>
+<text x="64" y="269" fill="#58e4d0" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">ISO/IEC 27001:2022</text>
+<rect x="64" y="297" width="72" height="5" rx="2.5" fill="url(#accent)"/>
+<text x="64" y="337" fill="#c9f1f0" font-family="Arial, Helvetica, sans-serif" font-size="22">Gestão de riscos, controles e documentação</text>
+<text x="64" y="367" fill="#c9f1f0" font-family="Arial, Helvetica, sans-serif" font-size="22">para planejamento, operação e melhoria do SGSI.</text>
+<g transform="translate(915 110)">
+ <circle cx="125" cy="122" r="122" fill="none" stroke="#40dfc8" stroke-opacity=".25" stroke-width="2"/>
+ <circle cx="125" cy="122" r="94" fill="none" stroke="#66c8ff" stroke-opacity=".5" stroke-dasharray="6 8" stroke-width="2"/>
+ <path d="M125 22L205 52V116C205 175 165 218 125 238C85 218 45 175 45 116V52Z" fill="#0d4260" stroke="url(#accent)" stroke-width="5"/>
+ <path d="M93 114V92C93 74 107 60 125 60C143 60 157 74 157 92V114" stroke="#b5fff4" stroke-width="8" fill="none" stroke-linecap="round"/>
+ <rect x="78" y="108" width="94" height="76" rx="13" fill="#1f8da1" stroke="#b5fff4" stroke-width="3"/>
+ <circle cx="125" cy="139" r="9" fill="#ffffff"/><path d="M125 147V160" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+ <g fill="#b5fff4"><circle cx="125" cy="2" r="5"/><circle cx="245" cy="122" r="5"/><circle cx="125" cy="242" r="5"/><circle cx="5" cy="122" r="5"/></g>
+</g>
+<rect x="64" y="422" width="1152" height="1" fill="#9ef4e8" opacity=".32"/>
+<g font-family="Arial, Helvetica, sans-serif">
+ <g transform="translate(64 452)"><rect width="264" height="120" rx="16" fill="#0a2c48" stroke="#4ccec5" stroke-opacity=".65"/><circle cx="30" cy="31" r="13" fill="#155567"/><path d="M30 19L41 24V33C41 40 35 44 30 47C25 44 19 40 19 33V24Z" stroke="#6ff4d9" fill="none" stroke-width="2.5"/><text x="54" y="37" fill="#ffffff" font-size="19" font-weight="700">Gestão de riscos</text><text x="24" y="72" fill="#c5f0ed" font-size="16">Identificação, análise,</text><text x="24" y="95" fill="#c5f0ed" font-size="16">tratamento e reavaliação</text></g>
+ <g transform="translate(346 452)"><rect width="264" height="120" rx="16" fill="#0a2c48" stroke="#4ccec5" stroke-opacity=".65"/><circle cx="30" cy="31" r="13" fill="#155567"/><path d="M23 31L28 36L38 25" fill="none" stroke="#6ff4d9" stroke-width="3" stroke-linecap="round"/><text x="54" y="37" fill="#ffffff" font-size="19" font-weight="700">Controles e SoA</text><text x="24" y="72" fill="#c5f0ed" font-size="16">Aplicabilidade e plano</text><text x="24" y="95" fill="#c5f0ed" font-size="16">de tratamento de riscos</text></g>
+ <g transform="translate(628 452)"><rect width="264" height="120" rx="16" fill="#0a2c48" stroke="#4ccec5" stroke-opacity=".65"/><circle cx="30" cy="31" r="13" fill="#155567"/><path d="M23 21H36L41 26V41H23Z M35 21V27H41 M27 32H36 M27 36H36" fill="none" stroke="#6ff4d9" stroke-width="2.5" stroke-linejoin="round"/><text x="54" y="37" fill="#ffffff" font-size="19" font-weight="700">Documentação</text><text x="24" y="72" fill="#c5f0ed" font-size="16">17 áreas temáticas e</text><text x="24" y="95" fill="#c5f0ed" font-size="16">17 modelos de apoio</text></g>
+ <g transform="translate(910 452)"><rect width="306" height="120" rx="16" fill="#0a2c48" stroke="#4ccec5" stroke-opacity=".65"/><circle cx="30" cy="31" r="13" fill="#155567"/><path d="M30 20V30L38 35 M30 19A13 13 0 1 0 43 32" fill="none" stroke="#6ff4d9" stroke-width="2.5" stroke-linecap="round"/><text x="54" y="37" fill="#ffffff" font-size="19" font-weight="700">Auditoria e melhoria</text><text x="24" y="72" fill="#c5f0ed" font-size="16">Monitoramento, avaliação</text><text x="24" y="95" fill="#c5f0ed" font-size="16">e preparação para auditoria</text></g>
+</g>
+<rect x="1005" y="54" width="211" height="38" rx="19" fill="#0f4b59" stroke="#42dec8"/>
+<text x="1110" y="79" fill="#d6fff6" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle">VERSÃO  v1.0.0</text>
+<text x="1215" y="611" fill="#83cbbf" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="end">PORTFÓLIO TÉCNICO • MODELO CONCEITUAL</text>
+</svg>
