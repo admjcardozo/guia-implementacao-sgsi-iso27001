@@ -4,17 +4,17 @@
 
 Este documento apresenta uma metodologia de referência para elaboração, manutenção e controle da Declaração de Aplicabilidade (*Statement of Applicability* — SoA) no contexto de um Sistema de Gestão de Segurança da Informação (SGSI) baseado na ISO/IEC 27001:2022.
 
-A Declaração de Aplicabilidade registra os controles de segurança da informação considerados necessários pela organização, a justificativa para sua inclusão, a situação de implementação e a justificativa para a exclusão de controles do Anexo A, conforme aplicável.
+A Declaração de Aplicabilidade registra os controles necessários determinados pela organização, as justificativas para sua inclusão, a indicação de implementação desses controles e as justificativas para excluir controles do Anexo A.
 
 Seus objetivos são:
 
 - estabelecer rastreabilidade entre riscos, decisões de tratamento e controles;
 - documentar a seleção dos controles necessários;
 - registrar justificativas de inclusão e exclusão;
-- apresentar a situação de implementação dos controles;
+- apresentar a situação de implementação dos controles necessários;
 - apoiar o planejamento, o monitoramento e a auditoria do SGSI;
 - manter uma visão controlada e atualizada dos controles considerados no sistema de gestão;
-- apoiar a demonstração da coerência entre avaliação de riscos, tratamento, controles e decisões de governança.
+- apoiar a coerência entre avaliação de riscos, tratamento, controles e decisões de governança.
 
 Este documento é um guia metodológico. Não representa uma SoA preenchida e aprovada para uma organização real.
 
@@ -22,11 +22,11 @@ Este documento é um guia metodológico. Não representa uma SoA preenchida e ap
 
 A referência principal é a **ISO/IEC 27001:2022**, incluindo a Emenda 1:2024, especialmente a cláusula 6.1.3, relativa ao tratamento de riscos de segurança da informação.
 
-A cláusula 6.1.3 estabelece requisitos para o processo de tratamento de riscos, incluindo a seleção das opções de tratamento, a determinação dos controles necessários, a comparação com os controles do Anexo A, a elaboração da Declaração de Aplicabilidade, a formulação do plano de tratamento e a obtenção das aprovações pertinentes.
+A cláusula 6.1.3 estabelece requisitos para o processo de tratamento de riscos, incluindo a seleção das opções de tratamento, a determinação dos controles necessários, a comparação com os controles do Anexo A, a elaboração da Declaração de Aplicabilidade, a formulação do plano de tratamento e as aprovações pertinentes.
 
-A ISO/IEC 27002:2022 pode ser utilizada como referência complementar para orientação sobre os controles de segurança da informação.
+A **ISO/IEC 27002:2022** pode ser utilizada como referência complementar para orientação sobre os controles de segurança da informação.
 
-A Emenda 1:2024 da ISO/IEC 27001 introduz considerações relacionadas às mudanças climáticas no contexto organizacional. Quando esse tema for relevante para o contexto, os requisitos e as necessidades pertinentes devem ser considerados no processo de gestão do SGSI e, quando aplicável, na determinação dos controles necessários.
+A Emenda 1:2024 da ISO/IEC 27001 introduz considerações relacionadas às mudanças climáticas no contexto organizacional. A organização deve determinar se as mudanças climáticas constituem questão relevante para seu contexto e considerar requisitos pertinentes das partes interessadas. Quando fatores climáticos forem relevantes para os objetivos, processos, ativos ou dependências do SGSI, seus efeitos devem ser considerados na avaliação de riscos e na determinação dos controles necessários, conforme pertinente. Não se deve presumir que mudanças climáticas constituam automaticamente um risco de segurança da informação em todos os contextos.
 
 A consulta às publicações oficiais é necessária para confirmar a redação integral e a aplicação dos requisitos normativos.
 
@@ -46,6 +46,8 @@ A SoA não deve ser tratada apenas como uma cópia do Anexo A da norma. A organi
 A comparação com o Anexo A serve para verificar se algum controle necessário foi inadvertidamente omitido. O Anexo A apresenta uma referência de controles possíveis, não uma lista que substitui a avaliação de riscos da organização.
 
 A organização pode determinar controles adicionais que não estejam listados no Anexo A. Quando esses controles forem necessários, também devem ser considerados na SoA, com suas justificativas e informações pertinentes.
+
+A SoA deve refletir as decisões documentadas da organização. Não se deve declarar que um controle é necessário, excluído ou implementado sem uma fundamentação compatível com o contexto e com as informações disponíveis.
 
 ## 4. Relação entre riscos, controles e SoA
 
@@ -68,6 +70,10 @@ Um controle pode ser necessário para tratar mais de um risco. Da mesma forma, u
 A rastreabilidade não deve ser limitada a uma correspondência simplificada de um risco para um único controle quando o cenário exigir um conjunto de medidas.
 
 A SoA, o registro de riscos e o Plano de Tratamento de Riscos possuem finalidades diferentes. A organização deve manter referências coerentes entre esses documentos, sem presumir que a existência de um deles comprova a execução das atividades descritas nos demais.
+
+A terminologia utilizada deve ser coerente com a metodologia de gestão de riscos. O risco atual representa a condição de referência para a decisão de tratamento; o risco residual esperado é uma estimativa anterior à confirmação dos resultados; e o risco residual reavaliado corresponde ao resultado da avaliação após a implementação das medidas de tratamento.
+
+A SoA não substitui a avaliação do risco residual nem o registro de sua aceitação formal pelo respectivo proprietário.
 
 ## 5. Processo de elaboração da SoA
 
@@ -106,6 +112,8 @@ A seleção deve considerar, conforme aplicável:
 A seleção não deve ser feita apenas com base na disponibilidade de ferramentas tecnológicas ou em uma lista genérica de controles.
 
 Os controles necessários podem ser selecionados de fontes diversas ou desenvolvidos conforme a necessidade, desde que a decisão seja fundamentada e mantenha coerência com os requisitos aplicáveis.
+
+A determinação de um controle como necessário não significa que ele já esteja implementado. A necessidade, a implementação e a eficácia são aspectos distintos e devem ser documentados de acordo com suas respectivas finalidades.
 
 ### 5.4. Comparar com o Anexo A
 
@@ -157,6 +165,8 @@ A classificação de um controle como implementado deve ser sustentada por evid�
 
 Quando a organização utilizar estados adicionais, deve estabelecer como eles serão consolidados para apresentar de forma inequívoca se o controle necessário está implementado ou não.
 
+A indicação de implementação também não equivale a uma declaração automática de eficácia. A avaliação da eficácia deve considerar a natureza do controle, os critérios definidos e as evidências disponíveis.
+
 ## 6. Estrutura recomendada da SoA
 
 A estrutura abaixo é uma proposta metodológica de registro. Os campos podem ser adaptados às necessidades de governança, auditoria e gestão, preservando as informações requeridas pela ISO/IEC 27001:2022.
@@ -182,6 +192,8 @@ Nem todos os campos adicionais são requisitos explícitos da norma. São elemen
 
 A organização deve assegurar que o registro identifique todos os controles necessários, inclusive aqueles que não constem do Anexo A, quando houver.
 
+A SoA deve permitir distinguir, no mínimo, a decisão de que um controle é necessário, a justificativa dessa decisão e a indicação de implementação exigida pela norma.
+
 ## 7. Exemplo hipotético de registro
 
 O exemplo a seguir é ilustrativo e não representa uma avaliação ou implementação real.
@@ -189,17 +201,17 @@ O exemplo a seguir é ilustrativo e não representa uma avaliação ou implement
 | Campo | Exemplo |
 |---|---|
 | ID do controle | EX-ACESSO-01 |
-| Controle de referência | Controle relacionado à gestão de direitos de acesso, conforme catálogo oficial adotado |
-| Origem da necessidade | Risco hipotético de manutenção de privilégios incompatíveis com a função do usuário |
+| Controle de referência | Controle relacionado à gestão de direitos de acesso, conforme catálogo oficial adotado. |
+| Origem da necessidade | Risco hipotético de manutenção de privilégios incompatíveis com a função do usuário. |
 | Justificativa de inclusão | A organização hipotética necessita estabelecer e revisar direitos de acesso de acordo com as responsabilidades e os riscos identificados. |
-| Aplicabilidade | Incluído no exemplo didático |
-| Situação de implementação | Não avaliada |
-| Responsável | A definir pela organização hipotética |
-| Evidências | Não apresentadas |
-| Riscos relacionados | Risco hipotético de acesso indevido a informações restritas |
-| Plano de tratamento | A definir após avaliação e aprovação |
-| Data da revisão | Não aplicável ao exemplo |
-| Aprovação | Não realizada |
+| Aplicabilidade | Incluído no exemplo didático. |
+| Situação de implementação | Não avaliada. |
+| Responsável | A definir pela organização hipotética. |
+| Evidências | Não apresentadas. |
+| Riscos relacionados | Risco hipotético de acesso indevido a informações restritas. |
+| Plano de tratamento | A definir após avaliação e aprovação. |
+| Data da revisão | Não aplicável ao exemplo. |
+| Aprovação | Não realizada. |
 
 Este exemplo não deve ser utilizado como declaração de conformidade, evidência de implementação ou afirmação sobre uma organização real.
 
@@ -225,6 +237,8 @@ Essas situações podem representar necessidades de planejamento ou tratamento, 
 A decisão deve considerar se o controle é necessário para tratar riscos ou cumprir requisitos aplicáveis. Quando necessário, devem ser avaliadas alternativas adequadas, sem presumir que uma alternativa elimina automaticamente a necessidade original.
 
 A justificativa deve ser suficientemente clara para permitir a revisão posterior da decisão e a compreensão de sua fundamentação por pessoas autorizadas, incluindo auditores.
+
+A exclusão de um controle do Anexo A não deve ser confundida com a decisão de não implementar um controle que tenha sido determinado como necessário. São decisões diferentes e exigem fundamentações distintas.
 
 ## 9. Controles adicionais e requisitos externos
 
@@ -256,11 +270,13 @@ O Plano de Tratamento de Riscos documenta as ações selecionadas para tratar os
 
 Um controle necessário que ainda não esteja implementado pode exigir uma ação de tratamento. Nesse caso, a SoA e o plano devem manter referências consistentes entre si.
 
-A cláusula 6.1.3 da ISO/IEC 27001:2022 também prevê a aprovação do plano de tratamento pelos proprietários dos riscos e a aceitação dos riscos residuais por esses proprietários.
+A cláusula 6.1.3 da ISO/IEC 27001:2022 prevê a aprovação do plano de tratamento pelos proprietários dos riscos e a aceitação dos riscos residuais por esses proprietários.
 
 Essas decisões devem ser documentadas de acordo com a governança da organização. A aprovação do plano não deve ser interpretada como aceitação automática de todos os riscos residuais.
 
 A conclusão de uma ação deve ser acompanhada da avaliação apropriada para verificar a implementação do controle e, quando pertinente, a eficácia das medidas adotadas.
+
+A SoA deve registrar a situação de implementação dos controles necessários de maneira coerente com as evidências disponíveis. A avaliação do risco residual e sua aceitação formal devem ser mantidas nos registros pertinentes de gestão de riscos, com referências que permitam a rastreabilidade com a SoA e o plano.
 
 ## 11. Aprovação, manutenção e controle de mudanças
 
@@ -282,6 +298,8 @@ A periodicidade da revisão deve ser definida pela organização considerando o 
 
 As alterações devem preservar a rastreabilidade entre a versão anterior, a decisão de mudança, a justificativa e a aprovação pertinente.
 
+Quando uma alteração afetar a necessidade ou a implementação de um controle, a organização deve avaliar também os impactos no registro de riscos, no Plano de Tratamento de Riscos e nas evidências relacionadas.
+
 ## 12. Evidências e rastreabilidade
 
 A organização deve manter informações documentadas suficientes para demonstrar a lógica da seleção dos controles e a situação registrada.
@@ -299,13 +317,15 @@ Como exemplos de evidências relacionadas, conforme aplicável:
 - relatórios de auditoria;
 - histórico de alterações da SoA;
 - registros de aprovação do plano de tratamento;
-- registros de aceitação dos riscos residuais pelos proprietários dos riscos, conforme aplicável.
+- registros de aceitação dos riscos residuais pelos proprietários dos riscos.
 
 A evidência deve sustentar a afirmação realizada. Um controle registrado como implementado deve possuir comprovação compatível com sua natureza e com os critérios definidos.
 
 A SoA não substitui os documentos operacionais, os registros de execução ou as evidências específicas dos controles.
 
 A existência de uma referência documental não comprova automaticamente que o controle foi executado, que está operando eficazmente ou que o risco foi reduzido ao nível pretendido.
+
+Os registros de aceitação dos riscos residuais devem permitir identificar o risco considerado, o resultado da avaliação, o proprietário responsável pela decisão, a data e eventuais condições ou medidas adicionais definidas.
 
 ## 13. Critérios de qualidade
 
@@ -324,7 +344,9 @@ Antes de aprovar ou revisar a SoA, recomenda-se verificar:
 - [ ] A versão e o histórico de alterações estão controlados.
 - [ ] As informações registradas são sustentadas por evidências apropriadas.
 - [ ] Os controles adicionais, quando existentes, estão identificados e justificados.
-- [ ] A relação com o plano de tratamento e a aceitação dos riscos residuais está documentada.
+- [ ] A relação com o plano de tratamento está documentada.
+- [ ] A aprovação do plano e a aceitação dos riscos residuais são tratadas como decisões distintas.
+- [ ] As informações sobre os riscos residuais possuem referências rastreáveis aos registros de gestão de riscos.
 
 A conclusão desta verificação indica que a SoA foi analisada segundo os critérios definidos. Não constitui, isoladamente, comprovação de conformidade integral com a ISO/IEC 27001:2022.
 
@@ -344,10 +366,13 @@ Para uso em um SGSI real, a organização deve:
 6. registrar a situação de implementação;
 7. manter rastreabilidade com o Plano de Tratamento de Riscos;
 8. obter as aprovações previstas na governança;
-9. registrar a aprovação do plano de tratamento e a aceitação dos riscos residuais pelos proprietários dos riscos, conforme aplicável;
-10. manter a SoA atualizada e controlada.
+9. obter a aprovação do plano de tratamento pelos proprietários dos riscos;
+10. registrar a aceitação formal dos riscos residuais pelos respectivos proprietários;
+11. manter a SoA atualizada e controlada.
 
 A decisão sobre a aplicabilidade de controles deve ser baseada em análise documentada, não em pressupostos genéricos.
+
+A adoção deste modelo não garante certificação ou conformidade automática com a ISO/IEC 27001. A conformidade depende da aplicação dos requisitos pertinentes e das evidências correspondentes no contexto do SGSI.
 
 ## 15. Documentos relacionados
 
@@ -368,9 +393,8 @@ A existência de um documento no repositório representa sua inclusão na estrut
 
 ## 16. Referências
 
-- ISO/IEC 27001:2022 — Information security, cybersecurity and privacy protection — Information security management systems — Requirements.
-- ISO/IEC 27001:2022/Amd 1:2024 — Information security, cybersecurity and privacy protection — Information security management systems — Requirements — Amendment 1: Climate action changes.
-- ISO/IEC 27002:2022 — Information security, cybersecurity and privacy protection — Information security controls.
+- ISO/IEC 27001:2022 — *Information security, cybersecurity and privacy protection — Information security management systems — Requirements*.
+- ISO/IEC 27001:2022/Amd 1:2024 — *Information security, cybersecurity and privacy protection — Information security management systems — Requirements — Amendment 1: Climate action changes*.
+- ISO/IEC 27002:2022 — *Information security, cybersecurity and privacy protection — Information security controls*.
 
 Consultar as publicações oficiais para confirmar os requisitos, as referências, as edições e as orientações aplicáveis.
-
