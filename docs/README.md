@@ -6,21 +6,23 @@ Este diretório reúne a documentação técnica do projeto autoral **Guia Técn
 
 O objetivo é oferecer uma referência estruturada para profissionais que precisam compreender, planejar, implementar, operar, avaliar e melhorar um Sistema de Gestão de Segurança da Informação (SGSI).
 
-A documentação reúne fundamentos, metodologias, orientações de implementação e modelos reutilizáveis. Os materiais devem ser adaptados ao contexto, aos riscos, às obrigações e às necessidades de cada organização.
+A documentação reúne fundamentos, metodologias, orientações de implementação, referências técnicas e modelos reutilizáveis. Os materiais devem ser adaptados ao contexto, aos riscos, às obrigações e às necessidades de cada organização.
+
+**Importante:** a conclusão de um documento neste repositório significa que o conteúdo foi publicado no projeto. Não comprova a implementação de um SGSI em uma organização real, a eficácia dos controles ou a obtenção de certificação.
 
 ## 2. Como utilizar a documentação
 
-Recomenda-se utilizar os documentos de forma integrada, considerando as dependências entre os processos e a sequência de implementação do SGSI.
+Recomenda-se utilizar os documentos de forma integrada, considerando as dependências entre processos e a sequência de implementação do SGSI.
 
 A estrutura contempla:
 
 - Fundamentos e requisitos aplicáveis.
-- Contexto organizacional, partes interessadas e escopo.
-- Liderança, responsabilidades e governança.
-- Gestão de riscos e tratamento de riscos.
+- Governança, contexto organizacional e escopo.
+- Liderança, responsabilidades e autoridades.
+- Gestão e tratamento de riscos.
 - Declaração de Aplicabilidade (SoA).
 - Controles, políticas e procedimentos de segurança.
-- Pessoas, competências e conscientização.
+- Gestão de pessoas, competências e conscientização.
 - Planejamento e controle operacional.
 - Monitoramento, indicadores e avaliação de desempenho.
 - Auditoria interna, análise crítica e melhoria contínua.
@@ -28,33 +30,33 @@ A estrutura contempla:
 - Modelos de documentos, formulários e registros.
 - Referências técnicas, normativas e glossário.
 
-A documentação deve ser utilizada como apoio à análise e à implementação. A simples existência de um documento não demonstra que o requisito correspondente foi implementado ou que um controle funciona eficazmente.
+A documentação deve ser utilizada como apoio à análise e à implementação. A existência de um documento não demonstra, isoladamente, que o requisito correspondente foi implementado ou que um controle funciona eficazmente.
 
 ## 3. Estrutura documental
 
-Os diretórios abaixo compõem a arquitetura do projeto. A situação indicada refere-se ao desenvolvimento documental deste repositório, não à implementação de um SGSI em uma organização real.
+A tabela apresenta a organização do repositório e a situação dos documentos-base.
 
-| Diretório | Finalidade | Situação |
+| Diretório | Finalidade | Situação documental |
 |---|---|---|
-| `01-fundamentos/` | Fundamentos, conceitos e terminologia do SGSI. | Documento-base criado |
-| `02-governanca-do-projeto/` | Documento mestre, planejamento e governança da implementação. | Documento-base criado |
-| `03-contexto-e-escopo/` | Contexto, partes interessadas, escopo e política de segurança. | Documentos-base criados |
-| `04-lideranca-e-responsabilidades/` | Papéis, responsabilidades e autoridades do SGSI. | Documento-base criado |
-| `05-gestao-de-riscos/` | Metodologia para identificação, análise, avaliação e tratamento de riscos. | Documento-base criado |
-| `06-declaracao-de-aplicabilidade/` | Orientações para elaboração e manutenção da SoA. | Documento-base criado |
-| `07-plano-de-tratamento/` | Planejamento, acompanhamento e tratamento dos riscos. | Documento-base criado |
-| `08-controles-de-seguranca/` | Estrutura de gestão dos controles de segurança. | Documento-base criado |
-| `09-politicas-e-procedimentos/` | Estrutura de políticas, procedimentos e instruções de trabalho. | Documento-base criado |
-| `10-pessoas-e-conscientizacao/` | Gestão de pessoas, competências e conscientização. | Documento-base criado |
-| `11-operacao-do-sgsi/` | Planejamento e controle operacional do SGSI. | Documento-base criado |
-| `12-monitoramento-e-indicadores/` | Monitoramento, medição, análise e avaliação. | Documento-base criado |
-| `13-auditoria-interna/` | Metodologia de auditoria interna. | Documento-base criado |
-| `14-analise-critica-e-melhoria/` | Análise crítica pela direção e melhoria contínua. | Documento-base criado |
-| `15-certificacao/` | Preparação e orientações para o processo de certificação. | Documento-base criado |
-| `16-modelos-e-registros/` | Modelos reutilizáveis para apoiar os processos do SGSI. | Modelos em desenvolvimento |
-| `17-referencias-e-glossario/` | Referências técnicas e normativas, fontes e glossário. | Planejado |
+| `01-fundamentos/` | Fundamentos e conceitos do SGSI. | Documento-base publicado |
+| `02-governanca-do-projeto/` | Documento mestre, planejamento e governança. | Documento-base publicado |
+| `03-contexto-e-escopo/` | Contexto, partes interessadas, escopo e política de segurança. | Documentos-base publicados |
+| `04-lideranca-e-responsabilidades/` | Papéis, responsabilidades e autoridades do SGSI. | Documento-base publicado |
+| `05-gestao-de-riscos/` | Metodologia de gestão de riscos de Segurança da Informação. | Documento-base publicado |
+| `06-declaracao-de-aplicabilidade/` | Declaração de Aplicabilidade e justificativas pertinentes. | Documento-base publicado |
+| `07-plano-de-tratamento/` | Planejamento e tratamento de riscos. | Documento-base publicado |
+| `08-controles-de-seguranca/` | Estrutura de gestão dos controles de segurança. | Documento-base publicado |
+| `09-politicas-e-procedimentos/` | Estrutura de políticas e procedimentos. | Documento-base publicado |
+| `10-pessoas-e-conscientizacao/` | Gestão de pessoas e conscientização. | Documento-base publicado |
+| `11-operacao-do-sgsi/` | Planejamento e controle operacional. | Documento-base publicado |
+| `12-monitoramento-e-indicadores/` | Monitoramento, medição, análise e avaliação. | Documento-base publicado |
+| `13-auditoria-interna/` | Metodologia de auditoria interna. | Documento-base publicado |
+| `14-analise-critica-e-melhoria/` | Análise crítica pela direção e melhoria contínua. | Documento-base publicado |
+| `15-certificacao/` | Orientações para preparação e processo de certificação. | Documento-base publicado |
+| `16-modelos-e-registros/` | Modelos reutilizáveis para apoiar os processos do SGSI. | Biblioteca de modelos publicada; sujeita a evolução |
+| `17-referencias-e-glossario/` | Referências técnicas, normativas e glossário. | Documentos-base publicados |
 
-**Nota:** a indicação de documento-base criado significa que existe um documento orientador no repositório. Não significa que todos os procedimentos, registros, controles ou evidências necessários para implementar um SGSI estejam completos.
+A indicação de documento-base publicado significa que existe conteúdo orientador no repositório. Não significa que todos os procedimentos, registros, controles ou evidências necessários para implementar um SGSI estejam completos.
 
 ## 4. Documento mestre
 
@@ -70,19 +72,21 @@ Ele deve ser utilizado como referência para manter a coerência entre os docume
 
 O diretório `16-modelos-e-registros/` reúne modelos destinados à adaptação e à utilização pelas organizações.
 
-### 5.1 Gestão de riscos e aplicabilidade
+Os modelos são instrumentos de apoio. Sua aplicação em uma organização exige preenchimento, análise, aprovação e manutenção conforme as responsabilidades e os processos estabelecidos.
+
+### 5.1. Gestão de riscos e aplicabilidade
 
 - [Modelo de Registro de Riscos](16-modelos-e-registros/modelo-de-registro-de-riscos.md)
 - [Modelo de Plano de Tratamento de Riscos](16-modelos-e-registros/modelo-de-plano-de-tratamento-de-riscos.md)
 - [Modelo de Declaração de Aplicabilidade (SoA)](16-modelos-e-registros/modelo-de-declaracao-de-aplicabilidade-soa.md)
 
-### 5.2 Auditoria, governança e melhoria
+### 5.2. Auditoria, governança e melhoria
 
 - [Modelo de Plano de Auditoria Interna do SGSI](16-modelos-e-registros/modelo-de-plano-de-auditoria-interna-do-sgsi.md)
 - [Modelo de Ata de Análise Crítica pela Direção](16-modelos-e-registros/modelo-de-ata-de-analise-critica-pela-direcao.md)
 - [Modelo de Registro de Não Conformidades e Ações Corretivas](16-modelos-e-registros/modelo-de-registro-de-nao-conformidades-e-acoes-corretivas.md)
 
-### 5.3 Incidentes, continuidade e recuperação
+### 5.3. Incidentes, continuidade e recuperação
 
 - [Modelo de Registro de Incidentes de Segurança da Informação](16-modelos-e-registros/modelo-de-registro-de-incidentes-de-seguranca-da-informacao.md)
 - [Modelo de Plano de Resposta a Incidentes](16-modelos-e-registros/modelo-de-plano-de-resposta-a-incidentes.md)
@@ -90,37 +94,55 @@ O diretório `16-modelos-e-registros/` reúne modelos destinados à adaptação 
 - [Modelo de Registro de Testes de Recuperação e Continuidade](16-modelos-e-registros/modelo-de-registro-de-testes-de-recuperacao-e-continuidade.md)
 - [Modelo de Registro de Backup e Restauração](16-modelos-e-registros/modelo-de-registro-de-backup-e-restauracao.md)
 
-### 5.4 Operação e proteção dos ativos
+### 5.4. Operação e proteção dos ativos
 
 - [Modelo de Registro de Gestão de Acessos e Revisão de Permissões](16-modelos-e-registros/modelo-de-registro-de-gestao-de-acessos-e-revisao-de-permissoes.md)
 - [Modelo de Registro de Gestão de Mudanças](16-modelos-e-registros/modelo-de-registro-de-gestao-de-mudancas.md)
 - [Modelo de Registro de Vulnerabilidades e Gestão de Correções](16-modelos-e-registros/modelo-de-registro-de-vulnerabilidades-e-gestao-de-correcoes.md)
 
-### 5.5 Modelos adicionais previstos
+### 5.5. Ativos, fornecedores e conscientização
 
-Os modelos abaixo fazem parte da proposta de ampliação da biblioteca documental e devem ser publicados antes de serem tratados como entregas concluídas:
+- [Modelo de Inventário e Classificação de Ativos](16-modelos-e-registros/modelo-de-inventario-e-classificacao-de-ativos.md)
+- [Modelo de Avaliação de Fornecedores e Terceiros](16-modelos-e-registros/modelo-de-avaliacao-de-fornecedores-e-terceiros.md)
+- [Modelo de Registro de Treinamentos e Conscientização](16-modelos-e-registros/modelo-de-registro-de-treinamentos-e-conscientizacao.md)
 
-- Modelo de Inventário e Classificação de Ativos de Informação.
-- Modelo de Avaliação de Fornecedores e Terceiros.
-- Modelo de Registro de Treinamentos e Conscientização em Segurança da Informação.
+### 5.6. Outros modelos da biblioteca
 
-A lista deverá ser atualizada conforme os arquivos forem criados e revisados.
+- [Modelo de Registro de Gestão de Acessos e Revisão de Permissões](16-modelos-e-registros/modelo-de-registro-de-gestao-de-acessos-e-revisao-de-permissoes.md)
+- [Modelo de Registro de Gestão de Mudanças](16-modelos-e-registros/modelo-de-registro-de-gestao-de-mudancas.md)
+- [Modelo de Registro de Vulnerabilidades e Gestão de Correções](16-modelos-e-registros/modelo-de-registro-de-vulnerabilidades-e-gestao-de-correcoes.md)
 
-## 6. Referências normativas e técnicas
+A biblioteca deve ser ampliada e revisada conforme a identificação de lacunas documentais, novas necessidades e resultados da revisão técnica.
 
-Os documentos específicos devem identificar as referências pertinentes ao tema tratado, com indicação da edição, da cláusula ou do controle quando aplicável.
+## 6. Referências técnicas, normativas e glossário
 
-Entre as referências previstas para o projeto estão:
+O diretório `17-referencias-e-glossario/` reúne documentos de apoio à terminologia e às fontes utilizadas no projeto.
+
+### 6.1. Referências técnicas e normativas
+
+Consulte [Referências Técnicas e Normativas do SGSI](17-referencias-e-glossario/referencias-tecnicas-e-normativas.md).
+
+O documento apresenta as principais referências utilizadas no guia, suas finalidades, fontes oficiais e critérios de atualização.
+
+### 6.2. Glossário
+
+Consulte [Glossário de Segurança da Informação e SGSI](17-referencias-e-glossario/glossario-de-seguranca-da-informacao.md).
+
+O glossário padroniza conceitos relacionados a SGSI, gestão de riscos, controles, documentação, operação, auditoria e certificação. Também diferencia termos frequentemente confundidos, como ameaça e vulnerabilidade, evento e incidente, documento e registro, correção e ação corretiva.
+
+### 6.3. Referências principais
+
+Entre as referências utilizadas no projeto estão:
 
 - ISO/IEC 27001:2022 — requisitos para Sistemas de Gestão de Segurança da Informação.
 - ISO/IEC 27002:2022 — orientações para controles de Segurança da Informação.
 - ISO/IEC 27005 — orientações para gestão de riscos de Segurança da Informação.
-- ISO 31000 — princípios e diretrizes para gestão de riscos.
+- ISO 31000 — diretrizes gerais para gestão de riscos.
 - ISO 19011 — diretrizes para auditoria de sistemas de gestão.
 - ISO/IEC 17021-1 — requisitos para organismos que auditam e certificam sistemas de gestão.
 - Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais (LGPD), quando aplicável.
 
-A lista não é exaustiva. A edição vigente, a aplicabilidade e os requisitos específicos devem ser verificados antes da utilização. A consulta às normas oficiais é necessária para confirmar o texto normativo e seus requisitos.
+A edição vigente, a aplicabilidade e os requisitos específicos devem ser confirmados nas fontes oficiais antes da utilização. O documento de referências deve ser consultado para informações complementares e critérios de revisão.
 
 ## 7. Rastreabilidade e consistência
 
@@ -143,13 +165,14 @@ A existência de uma política, um procedimento ou um modelo não deve ser inter
 
 As situações documentais devem ser interpretadas da seguinte maneira:
 
-- **Planejado:** entrega prevista, ainda não concluída.
+- **Planejado:** entrega prevista, ainda não publicada.
 - **Em elaboração:** conteúdo em construção.
 - **Em revisão:** conteúdo submetido a análise de consistência e qualidade.
 - **Revisado no projeto:** conteúdo examinado no âmbito do desenvolvimento documental.
 - **Validado no projeto:** conteúdo revisado e formalmente aceito como parte do guia conceitual.
+- **Publicado:** arquivo disponível no repositório.
 
-Esses estados se referem exclusivamente ao desenvolvimento do projeto autoral. Não representam aprovação corporativa, implementação em uma organização ou certificação de um SGSI.
+Esses estados se referem exclusivamente ao desenvolvimento documental do projeto autoral. Não representam aprovação corporativa, implementação em uma organização ou certificação de um SGSI.
 
 ## 9. Natureza e limitações do projeto
 
@@ -165,20 +188,20 @@ O material:
 - Não comprova a implementação de controles em uma organização.
 - Não substitui auditoria independente ou avaliação profissional especializada.
 
-A conclusão documental do projeto significa que os materiais previstos foram desenvolvidos e revisados dentro do escopo acordado. Ela não equivale à implementação ou certificação de um SGSI.
+A conclusão documental do projeto significa que os materiais previstos foram desenvolvidos e revisados dentro do escopo definido. Ela não equivale à implementação ou certificação de um SGSI.
 
 ## 10. Próximas atividades de desenvolvimento
 
-As atividades finais previstas para o projeto são:
+As atividades de continuidade e encerramento documental incluem:
 
-1. Concluir os modelos adicionais aprovados.
-2. Criar e preencher a estrutura de referências técnicas e glossário.
-3. Revisar os links internos e a consistência dos nomes dos arquivos.
-4. Verificar a coerência entre os documentos e as referências normativas.
-5. Revisar o README principal e os índices.
-6. Registrar a situação final do projeto, sem confundir conclusão documental com implementação real.
+1. Verificar os links internos e a correspondência entre links e arquivos publicados.
+2. Revisar a coerência entre os documentos e as referências normativas.
+3. Verificar a consistência dos termos técnicos e dos nomes dos arquivos.
+4. Avaliar lacunas documentais relevantes nos domínios do SGSI.
+5. Revisar o README principal e os índices após alterações estruturais.
+6. Registrar a situação final do projeto sem confundir conclusão documental com implementação real.
 
-A lista deve ser ajustada se a revisão técnica identificar lacunas relevantes.
+A conclusão dessas atividades deverá ser registrada de acordo com as verificações efetivamente realizadas. A inclusão de uma atividade nesta lista não significa que ela já tenha sido executada.
 
 ---
 
