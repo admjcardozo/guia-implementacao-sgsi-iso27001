@@ -11,39 +11,48 @@ O plano tem como objetivos:
 - estabelecer critérios para acompanhar a execução das ações;
 - manter rastreabilidade entre riscos, controles e decisões de tratamento;
 - apoiar a avaliação dos riscos residuais;
-- subsidiar a aprovação dos planos pelos proprietários dos riscos e pelas autoridades competentes;
+- subsidiar a aprovação do plano e a aceitação dos riscos residuais pelas autoridades competentes;
 - fornecer informações para o monitoramento e a melhoria contínua do SGSI.
 
 Este documento é um guia metodológico. Não representa um plano de tratamento aprovado ou executado por uma organização real.
 
 ## 2. Referências normativas
 
-A referência principal é a **ISO/IEC 27001:2022**, especialmente a cláusula 6.1.3, relativa ao tratamento de riscos de segurança da informação.
+A referência principal é a **ISO/IEC 27001:2022**, incluindo a **Emenda 1:2024**, que introduziu considerações relacionadas às mudanças climáticas nos requisitos relativos ao contexto da organização.
 
-A cláusula 6.1.3 estabelece requisitos relacionados à seleção de opções de tratamento, à determinação dos controles necessários, à comparação com o Anexo A, à elaboração da Declaração de Aplicabilidade (SoA), à formulação do plano de tratamento e à obtenção da aprovação do plano e da aceitação dos riscos residuais pelos proprietários dos riscos.
+Para o tratamento de riscos, são especialmente relevantes:
 
-A cláusula 8.3 também é relevante para a implementação do processo de tratamento de riscos conforme os planos estabelecidos.
+- **Cláusula 6.1.2:** avaliação de riscos de segurança da informação;
+- **Cláusula 6.1.3:** tratamento de riscos de segurança da informação;
+- **Cláusula 8.2:** avaliação de riscos de segurança da informação em intervalos planejados e quando mudanças significativas forem propostas ou ocorrerem;
+- **Cláusula 8.3:** implementação do tratamento de riscos conforme os planos estabelecidos.
 
-A ISO/IEC 27002:2022 pode ser utilizada como referência complementar para orientação sobre controles de segurança da informação.
+A cláusula 6.1.3 contempla a seleção de opções de tratamento, a determinação dos controles necessários, a comparação desses controles com o Anexo A, a elaboração da Declaração de Aplicabilidade (SoA), a formulação do plano de tratamento e as aprovações requeridas, incluindo a aceitação dos riscos residuais pelos proprietários dos riscos.
 
-Este documento não reproduz integralmente o texto das normas. A consulta às publicações oficiais é necessária para confirmar os requisitos aplicáveis.
+A **ISO/IEC 27005:2022** fornece orientação complementar para a gestão de riscos de segurança da informação. A ISO/IEC 27002:2022 pode ser utilizada como referência para orientação sobre controles de segurança da informação. A ISO 31000 pode complementar a abordagem de gestão de riscos quando adotada pela organização.
+
+Este documento não reproduz integralmente o texto das normas. A consulta às publicações oficiais é necessária para confirmar os requisitos aplicáveis e sua interpretação no contexto do SGSI.
 
 ## 3. Conceitos fundamentais
 
 Para aplicação desta metodologia, são utilizados os seguintes conceitos:
 
 - **Risco identificado:** cenário de risco registrado e submetido ao processo de avaliação.
+- **Risco inerente:** risco considerado antes dos efeitos dos controles existentes ou de outras medidas de tratamento, conforme as definições adotadas pela metodologia da organização.
+- **Risco atual:** nível de risco estimado considerando os controles existentes e sua condição de funcionamento, conforme a metodologia adotada.
 - **Opção de tratamento:** abordagem selecionada para modificar, evitar, compartilhar ou aceitar um risco, conforme aplicável.
 - **Ação de tratamento:** atividade definida para implementar a opção de tratamento escolhida.
 - **Controle:** medida destinada a modificar ou manter o risco, conforme o contexto.
 - **Responsável pela ação:** pessoa ou função encarregada de executar ou coordenar uma atividade do plano.
 - **Proprietário do risco:** pessoa ou função designada para responder pela gestão do risco dentro dos limites de autoridade estabelecidos.
-- **Risco residual:** risco remanescente após a implementação das medidas consideradas no tratamento.
+- **Risco residual:** risco remanescente após a implementação das medidas de tratamento consideradas na avaliação.
 - **Aceitação do risco residual:** decisão formal de aceitar o risco remanescente, conforme os critérios e as autoridades definidos pela organização.
 - **Evidência de implementação:** informação que sustenta a afirmação de que uma ação ou controle foi implementado.
 - **Eficácia do tratamento:** grau em que as medidas adotadas produzem os resultados esperados na modificação do risco.
 
-A organização deve definir os termos e as regras de aplicação de maneira consistente com sua metodologia de gestão de riscos.
+Os termos risco inerente, risco atual e risco residual são utilizados para facilitar a análise e a rastreabilidade. A organização deve documentar suas definições, os momentos de avaliação e os critérios utilizados, evitando comparações inconsistentes entre resultados.
+
+A organização também deve distinguir a implementação de um controle de sua eficácia: a existência de uma política, ferramenta ou procedimento, por si só, não demonstra necessariamente que o risco foi reduzido ao nível esperado.
 
 ## 4. Princípios do plano de tratamento
 
@@ -67,40 +76,57 @@ Quando houver dependências, restrições orçamentárias ou necessidade de cont
 
 ### 4.4. Rastreabilidade
 
-O plano deve manter referências aos riscos, aos controles selecionados, à SoA e às evidências de execução.
+O plano deve manter referências aos riscos, às decisões de tratamento, aos controles selecionados, à SoA e às evidências de execução.
+
+A rastreabilidade deve permitir compreender por que uma ação foi selecionada, qual risco pretende tratar, qual resultado se espera alcançar e como sua execução e seus efeitos serão avaliados.
 
 ### 4.5. Aprovação formal
 
 As opções de tratamento, o plano e a aceitação dos riscos residuais devem ser submetidos às aprovações exigidas pela ISO/IEC 27001:2022 e pela governança definida pela organização.
 
+A aprovação do plano e a aceitação do risco residual são decisões relacionadas, mas distintas. A aprovação inicial do plano não deve ser interpretada como aceitação automática de todos os riscos que permanecerem após a implementação.
+
 ### 4.6. Monitoramento
 
 A execução das ações deve ser acompanhada para identificar atrasos, impedimentos, alterações de escopo e riscos que permaneçam acima dos critérios de aceitação.
 
+### 4.7. Atualização conforme o contexto
+
+O plano deve ser revisto quando alterações relevantes nos processos, nas tecnologias, nos fornecedores, nas obrigações aplicáveis ou no contexto organizacional modificarem os riscos ou a adequação das medidas selecionadas.
+
 ## 5. Relação entre avaliação de riscos, SoA e plano de tratamento
 
-O Plano de Tratamento de Riscos integra o processo de gestão de riscos do SGSI.
+O Plano de Tratamento de Riscos integra o processo de gestão de riscos do SGSI e deve permanecer coerente com a metodologia de avaliação de riscos e com a Declaração de Aplicabilidade.
 
 A sequência metodológica de referência é:
 
-1. identificar e avaliar os riscos;
-2. comparar os resultados com os critérios de risco estabelecidos;
-3. selecionar as opções de tratamento;
-4. determinar os controles necessários;
-5. comparar os controles necessários com o Anexo A da ISO/IEC 27001:2022;
-6. documentar a Declaração de Aplicabilidade;
-7. elaborar o plano de tratamento;
-8. obter as aprovações necessárias;
-9. implementar e acompanhar as ações;
-10. reavaliar os riscos e tratar a aceitação dos riscos residuais.
+1. estabelecer e manter os critérios de avaliação e aceitação de riscos;
+2. identificar e avaliar os riscos de segurança da informação;
+3. comparar os resultados com os critérios estabelecidos;
+4. selecionar as opções de tratamento;
+5. determinar os controles necessários para implementar as opções selecionadas;
+6. comparar os controles necessários com os controles do Anexo A da ISO/IEC 27001:2022, verificando se algum controle necessário foi omitido;
+7. elaborar ou atualizar a Declaração de Aplicabilidade;
+8. formular o Plano de Tratamento de Riscos;
+9. obter as aprovações necessárias para o plano e para a aceitação dos riscos residuais;
+10. implementar e acompanhar as ações;
+11. reavaliar os riscos após o tratamento e registrar as decisões correspondentes.
 
-A sequência deve preservar a rastreabilidade entre os resultados da avaliação, as decisões tomadas e as medidas selecionadas.
+Essa sequência é uma representação metodológica. As atividades podem exigir iterações, especialmente quando a análise de riscos, a seleção de controles ou a viabilidade das ações indicar a necessidade de rever decisões anteriores.
 
-O plano não substitui o registro de riscos nem a SoA. Cada documento possui uma finalidade específica, e suas informações devem permanecer coerentes.
+A comparação com o Anexo A não significa que todos os controles ali apresentados sejam automaticamente aplicáveis, nem limita a organização a utilizar somente esses controles. A organização deve determinar os controles necessários, considerar o Anexo A e justificar as inclusões e exclusões na SoA conforme os requisitos normativos.
+
+O plano não substitui o registro de riscos nem a SoA. Cada documento possui uma finalidade específica:
+
+- **Registro de riscos:** documenta os riscos identificados, as avaliações e as decisões relacionadas.
+- **Declaração de Aplicabilidade:** documenta os controles necessários, as justificativas de inclusão, o estado de implementação e as justificativas para exclusões.
+- **Plano de Tratamento de Riscos:** documenta as ações planejadas para implementar as decisões de tratamento.
+
+As informações desses documentos devem permanecer coerentes e atualizadas. Uma mudança relevante no risco, no controle selecionado ou na estratégia de tratamento pode exigir a revisão dos documentos relacionados.
 
 ## 6. Seleção das opções de tratamento
 
-A organização deve selecionar opções de tratamento adequadas aos riscos identificados, considerando os critérios aprovados, os objetivos do SGSI e as obrigações aplicáveis.
+A organização deve selecionar opções de tratamento adequadas aos riscos identificados, considerando os critérios aprovados, os objetivos do SGSI, os recursos disponíveis e as obrigações aplicáveis.
 
 Entre as opções que podem ser consideradas estão:
 
@@ -115,7 +141,9 @@ Exemplos metodológicos:
 - estabelecer cópias de segurança e testar sua recuperação;
 - melhorar o monitoramento de eventos de segurança;
 - corrigir vulnerabilidades identificadas;
-- estabelecer procedimentos de resposta a incidentes.
+- estabelecer procedimentos de resposta a incidentes;
+- aprimorar a gestão de mudanças;
+- estabelecer processos de revisão de acessos e de segregação de funções.
 
 A escolha de uma medida deve ser fundamentada no cenário avaliado. Os exemplos não constituem recomendações universais para todos os riscos.
 
@@ -129,15 +157,17 @@ A decisão deve considerar os impactos operacionais, estratégicos, contratuais 
 
 Consiste em estabelecer mecanismos que distribuam ou transfiram determinadas responsabilidades ou consequências, como contratos, seguros ou serviços especializados, quando apropriado.
 
-O compartilhamento ou a transferência não elimina automaticamente as responsabilidades da organização, suas obrigações legais ou todos os efeitos do risco.
+O compartilhamento ou a transferência não elimina automaticamente as responsabilidades da organização, suas obrigações legais ou todos os efeitos do risco. Os riscos relacionados a fornecedores e serviços terceirizados devem continuar sendo avaliados e acompanhados.
 
 ### 6.4. Aceitar o risco
 
 Consiste em decidir formalmente manter o risco dentro dos critérios e limites de autoridade estabelecidos.
 
-A aceitação deve possuir justificativa documentada e aprovação por autoridade apropriada.
+A aceitação deve possuir justificativa documentada e aprovação por autoridade apropriada, observando os requisitos aplicáveis e a governança da organização.
 
-A aceitação não deve ser utilizada como substituto para o cumprimento de requisitos legais, regulatórios ou contratuais aplicáveis.
+A aceitação de um risco não deve ser utilizada como substituto para o cumprimento de requisitos legais, regulatórios ou contratuais aplicáveis.
+
+Quando a organização decidir aceitar um risco, deve registrar a justificativa, o responsável pela decisão, a data, o nível de risco considerado e eventuais condições, limitações ou datas para reavaliação.
 
 ## 7. Estrutura recomendada do plano
 
@@ -150,11 +180,12 @@ A estrutura de referência deve contemplar, conforme aplicável:
 | ID da ação | Identificador único da ação de tratamento. |
 | ID do risco | Referência ao risco que motivou a ação. |
 | Descrição do risco | Síntese do cenário de risco associado. |
+| Avaliação de referência | Registro do nível de risco antes do tratamento ou na última avaliação válida, conforme a metodologia. |
 | Opção de tratamento | Registrar a opção selecionada. |
-| Controle relacionado | Referenciar o controle ou conjunto de controles envolvidos. |
+| Controle relacionado | Referenciar o controle ou conjunto de controles envolvidos, incluindo a correspondência com a SoA quando aplicável. |
 | Descrição da ação | Especificar a atividade que será executada. |
 | Resultado esperado | Definir o resultado pretendido. |
-| Responsável | Identificar a pessoa ou função responsável pela execução. |
+| Responsável pela ação | Identificar a pessoa ou função responsável pela execução. |
 | Proprietário do risco | Identificar quem responde pela gestão do risco. |
 | Prioridade | Registrar a prioridade conforme os critérios aprovados. |
 | Prazo | Indicar a data-alvo aprovada. |
@@ -163,11 +194,15 @@ A estrutura de referência deve contemplar, conforme aplicável:
 | Critério de conclusão | Definir como será verificado que a ação foi concluída. |
 | Evidência esperada | Indicar os registros que sustentarão a conclusão. |
 | Situação | Registrar o estado atual da ação. |
+| Resultado da validação | Registrar a verificação da execução e, quando aplicável, da eficácia da medida. |
 | Risco residual | Registrar o resultado da reavaliação, quando aplicável. |
-| Aprovação | Registrar as aprovações necessárias. |
+| Aprovação do plano | Registrar as aprovações necessárias. |
+| Aceitação do risco residual | Registrar a decisão formal pertinente, quando aplicável. |
 | Histórico | Preservar alterações, decisões e justificativas relevantes. |
 
-Os campos adicionais são recomendações metodológicas. A organização deve manter, no mínimo, as informações necessárias para cumprir os requisitos normativos e demonstrar a execução controlada do tratamento.
+Os campos adicionais são recomendações metodológicas. A organização deve manter as informações documentadas necessárias para cumprir os requisitos normativos e demonstrar a execução controlada do tratamento.
+
+Quando uma ação tratar mais de um risco ou envolver vários controles, a ferramenta utilizada deve permitir a rastreabilidade entre as relações, evitando que a consolidação dos registros impeça a compreensão das decisões.
 
 ## 8. Priorização das ações
 
@@ -185,13 +220,16 @@ Podem ser considerados:
 - tempo necessário para implementar as medidas;
 - disponibilidade de recursos;
 - consequências do adiamento;
-- riscos introduzidos pela própria implementação.
+- riscos introduzidos pela própria implementação;
+- mudanças relevantes no contexto interno e externo.
 
 Uma classificação como crítica, alta, média ou baixa pode ser utilizada como mecanismo gerencial, desde que seus critérios estejam documentados.
 
 A prioridade não deve ser determinada exclusivamente pela pontuação de uma matriz de risco. Obrigações aplicáveis e outros fatores relevantes podem exigir ação ou escalonamento independentemente do resultado numérico.
 
 Quando uma ação prioritária não puder ser executada no prazo inicialmente previsto, a justificativa, os impactos e a decisão sobre medidas compensatórias devem ser documentados e submetidos à autoridade apropriada.
+
+A organização deve evitar que restrições de orçamento, capacidade ou prazo sejam tratadas automaticamente como justificativa para aceitar riscos acima dos limites aprovados.
 
 ## 9. Definição das ações e critérios de conclusão
 
@@ -209,11 +247,14 @@ Como estrutura metodológica, uma ação pode conter:
 - dependências;
 - recursos;
 - critério de conclusão;
-- evidência esperada.
+- evidência esperada;
+- forma de validação do resultado, quando aplicável.
 
 O critério de conclusão deve permitir verificar se a entrega foi realizada.
 
 Quando a ação envolver um controle de segurança, a conclusão da atividade não significa automaticamente que o controle esteja eficaz ou que o risco tenha sido reduzido ao nível pretendido. Essa conclusão depende da avaliação e das evidências apropriadas.
+
+Quando a implementação depender de fornecedor, contratação, aprovação externa ou mudança de arquitetura, essas dependências devem ser consideradas no planejamento e no acompanhamento.
 
 ## 10. Exemplo hipotético de plano de tratamento
 
@@ -224,44 +265,58 @@ A tabela a seguir apresenta um exemplo exclusivamente didático.
 | ID da ação | AT-ACESSO-001 |
 | ID do risco | R-ACESSO-001 |
 | Descrição do risco | Manutenção de privilégios incompatíveis com a função atual de um usuário. |
+| Avaliação de referência | A determinar segundo a metodologia hipotética. |
 | Opção de tratamento | Modificar o risco. |
 | Controle relacionado | Gestão e revisão dos direitos de acesso, conforme os controles determinados pela organização. |
 | Descrição da ação | Definir e executar um processo periódico de revisão de privilégios, incluindo registro das decisões e correção das incompatibilidades identificadas. |
 | Resultado esperado | Reduzir a possibilidade de manutenção de acessos incompatíveis com as responsabilidades atribuídas. |
 | Responsável | A definir pela organização hipotética. |
+| Proprietário do risco | A designar conforme a governança hipotética. |
 | Prioridade | A determinar segundo os critérios de risco aprovados. |
 | Prazo | A definir. |
 | Recursos necessários | A estimar após avaliação do ambiente e do escopo. |
 | Critério de conclusão | Processo definido, revisão executada e decisões registradas conforme os critérios aprovados. |
 | Evidência esperada | Procedimento aprovado, registros da revisão, decisões e comprovação das correções realizadas. |
 | Situação | Não iniciado no exemplo. |
+| Resultado da validação | Não realizado. |
 | Risco residual | Não avaliado. |
-| Aprovação | Não realizada. |
+| Aprovação do plano | Não realizada. |
+| Aceitação do risco residual | Não realizada. |
 
 Este exemplo não representa uma ação executada, um controle implementado ou uma constatação sobre uma organização real.
 
-Os responsáveis, prazos, prioridades, recursos e critérios definitivos devem ser estabelecidos a partir da avaliação e da governança da organização que utilizar o modelo.
+Os responsáveis, prazos, prioridades, recursos e critérios definitivos devem ser estabelecidos a partir da avaliação de riscos e da governança da organização que utilizar o modelo.
 
 ## 11. Aprovação do plano e aceitação de riscos residuais
 
-A organização deve estabelecer um processo formal para aprovar o plano de tratamento e a aceitação dos riscos residuais pelos proprietários dos riscos, conforme os requisitos aplicáveis.
+A organização deve estabelecer um processo formal para aprovar o plano de tratamento e obter a aceitação dos riscos residuais pelos proprietários dos riscos, conforme os requisitos aplicáveis.
 
 O processo deve distinguir:
 
-- aprovação da opção de tratamento;
+- aprovação das opções de tratamento;
 - aprovação do plano e dos recursos;
 - autorização para execução;
 - validação da conclusão das ações;
-- avaliação do risco residual;
-- aceitação formal do risco residual.
+- avaliação dos riscos após o tratamento;
+- aceitação formal dos riscos residuais.
 
 Essas decisões podem ocorrer em momentos diferentes e devem ser registradas de forma que sua sequência e seus responsáveis sejam compreensíveis.
 
-A aprovação do plano não deve ser interpretada como aceitação automática de todos os riscos residuais futuros.
+A aprovação do plano não deve ser interpretada como aceitação automática de todos os riscos residuais futuros. A avaliação após o tratamento pode revelar que as medidas foram insuficientes, que novos riscos surgiram ou que as condições originalmente consideradas se alteraram.
 
 Quando o risco residual permanecer acima dos critérios de aceitação, a organização deve avaliar novas opções de tratamento ou escalar a decisão conforme sua governança.
 
 A aceitação deve respeitar as obrigações aplicáveis e os limites de autoridade definidos. Não se deve presumir que qualquer pessoa possa aceitar qualquer nível de risco.
+
+Os registros de aprovação e aceitação devem identificar, conforme aplicável:
+
+- risco e avaliação considerados;
+- justificativa da decisão;
+- proprietário do risco e autoridade envolvida;
+- data da decisão;
+- condições ou restrições estabelecidas;
+- necessidade de monitoramento ou reavaliação;
+- medidas adicionais previstas, quando houver.
 
 ## 12. Implementação e acompanhamento das ações
 
@@ -277,13 +332,16 @@ O acompanhamento deve permitir identificar:
 - mudanças de escopo;
 - necessidade de recursos adicionais;
 - evidências pendentes;
-- riscos que permanecem sem tratamento suficiente.
+- riscos que permanecem sem tratamento suficiente;
+- controles cuja eficácia ainda não foi validada.
 
 Quando houver atraso, mudança ou impedimento relevante, a situação deve ser registrada e submetida à análise apropriada.
 
 A alteração de prazos ou escopo deve possuir justificativa e aprovação conforme as regras estabelecidas.
 
 O acompanhamento pode ser realizado por reuniões de governança, indicadores, relatórios, sistemas de gestão ou outros mecanismos adequados.
+
+A frequência de acompanhamento deve ser proporcional à prioridade das ações, à exposição ao risco e às necessidades de decisão da organização.
 
 ## 13. Reavaliação dos riscos residuais
 
@@ -298,13 +356,16 @@ A reavaliação deve considerar:
 - mudanças nas ameaças e vulnerabilidades;
 - efeitos não previstos das medidas;
 - impacto e probabilidade após o tratamento;
-- critérios de aceitação aplicáveis.
+- critérios de aceitação aplicáveis;
+- alterações relevantes no contexto em que o risco foi avaliado.
 
 A avaliação deve distinguir entre a conclusão de uma ação e a eficácia do tratamento.
 
-Uma atividade pode ter sido concluída sem produzir a redução de risco esperada. Nesse caso, podem ser necessárias medidas adicionais, revisão dos critérios ou escalonamento da decisão.
+Uma atividade pode ter sido concluída sem produzir a redução de risco esperada. Nesse caso, podem ser necessárias medidas adicionais, revisão da abordagem ou escalonamento da decisão.
 
-O risco residual e a respectiva aceitação devem ser documentados conforme a governança definida.
+A comparação entre avaliações deve utilizar critérios consistentes e registrar as premissas relevantes. Se a metodologia, a escala ou as condições de avaliação tiverem sido alteradas, essas mudanças devem ser consideradas na interpretação dos resultados.
+
+O risco residual e a respectiva aceitação devem ser documentados conforme a governança definida. A decisão de aceitação deve refletir o risco efetivamente avaliado e não apenas a previsão registrada no plano inicial.
 
 ## 14. Gestão de mudanças no plano
 
@@ -320,12 +381,16 @@ Exemplos de situações que podem exigir revisão:
 - alteração de fornecedor;
 - mudança no escopo do SGSI;
 - identificação de novas obrigações;
+- alterações relevantes no contexto interno ou externo;
+- identificação de riscos relacionados a mudanças climáticas, quando pertinentes ao contexto e aos objetivos da organização;
 - evidências de que a medida selecionada é insuficiente;
 - ocorrência de incidente relacionado ao risco.
 
 As mudanças devem manter histórico, justificativa, responsável e aprovação quando exigida.
 
 A revisão do plano deve preservar a rastreabilidade entre a avaliação de riscos, as decisões de tratamento, a SoA e os registros de implementação.
+
+Quando uma mudança significativa afetar o cenário de risco, a organização deve avaliar se é necessário atualizar a avaliação de riscos, rever os controles determinados ou modificar a estratégia de tratamento.
 
 ## 15. Evidências e registros
 
@@ -344,11 +409,14 @@ Conforme aplicável, os registros podem incluir:
 - justificativas para atrasos ou desvios;
 - avaliações dos riscos residuais;
 - decisões de aceitação;
-- relatórios de acompanhamento.
+- relatórios de acompanhamento;
+- registros de reavaliação quando ocorrerem mudanças significativas.
 
 Os registros devem ser protegidos contra alteração indevida, perda e acesso não autorizado, conforme os requisitos e as necessidades da organização.
 
 A documentação deve refletir a situação real. Não se deve marcar uma ação como concluída ou um controle como implementado sem evidências apropriadas.
+
+As evidências devem ser suficientes para sustentar as afirmações registradas, considerando a natureza da ação e do controle. A existência de um documento ou de uma configuração, isoladamente, pode não demonstrar que um processo esteja sendo executado de forma consistente ou que o controle produza o resultado esperado.
 
 ## 16. Indicadores de acompanhamento
 
@@ -364,19 +432,25 @@ Exemplos de indicadores metodológicos:
 - tempo médio de conclusão das ações;
 - quantidade de ações reabertas após validação;
 - quantidade de riscos acima dos critérios de aceitação;
-- distribuição das ações por área responsável.
+- distribuição das ações por área responsável;
+- percentual de ações concluídas cuja eficácia foi avaliada;
+- quantidade de ações com dependências ou impedimentos críticos.
 
 Os indicadores devem possuir definição, fórmula, fonte de dados, periodicidade, responsável e critérios de interpretação.
 
 Os indicadores são instrumentos de acompanhamento e não substituem a análise qualitativa dos riscos. Um percentual elevado de ações concluídas, por exemplo, não demonstra por si só que os riscos estejam adequadamente tratados.
+
+A seleção dos indicadores deve considerar as necessidades de informação da gestão e das demais funções responsáveis pelo monitoramento do SGSI.
 
 ## 17. Critérios de qualidade
 
 Antes de aprovar ou revisar o plano, recomenda-se verificar:
 
 - [ ] Os riscos relacionados estão identificados e avaliados.
+- [ ] Os critérios de avaliação e aceitação estão definidos e são aplicáveis.
 - [ ] As opções de tratamento possuem justificativa.
 - [ ] Os controles necessários estão relacionados à SoA.
+- [ ] As ações estão vinculadas aos riscos e às decisões de tratamento.
 - [ ] Cada ação possui descrição objetiva.
 - [ ] Os responsáveis estão definidos.
 - [ ] Os prazos e recursos foram avaliados.
@@ -387,6 +461,8 @@ Antes de aprovar ou revisar o plano, recomenda-se verificar:
 - [ ] A reavaliação dos riscos residuais está prevista.
 - [ ] A aceitação dos riscos residuais está sujeita à autoridade apropriada.
 - [ ] Os registros permitem rastrear as decisões e os resultados.
+- [ ] A documentação distingue execução da ação e eficácia do tratamento.
+- [ ] Os documentos relacionados permanecem coerentes e atualizados.
 
 A conclusão desta verificação indica que o plano foi analisado segundo os critérios estabelecidos. Não comprova, isoladamente, a implementação eficaz do tratamento nem a conformidade integral do SGSI.
 
@@ -402,14 +478,17 @@ Antes de utilizar o modelo em um SGSI real, a organização deve:
 2. utilizar resultados efetivos da avaliação de riscos;
 3. selecionar opções de tratamento adequadas;
 4. determinar os controles necessários;
-5. elaborar e aprovar a SoA;
+5. elaborar ou atualizar a SoA;
 6. definir ações, responsáveis, prazos e recursos;
 7. aprovar o plano e implementar as ações;
 8. manter evidências da execução;
-9. reavaliar os riscos residuais;
-10. registrar as decisões de aceitação e as necessidades de tratamento adicional.
+9. reavaliar os riscos após o tratamento;
+10. registrar as decisões de aceitação e as necessidades de tratamento adicional;
+11. revisar o plano quando mudanças significativas afetarem os riscos ou as medidas adotadas.
 
-Os exemplos deste documento são hipotéticos e devem ser adaptados ao contexto e às obrigações da organização.
+Os exemplos deste documento são hipotéticos e devem ser adaptados ao contexto, aos objetivos e às obrigações da organização.
+
+A adoção deste material não garante certificação ou conformidade automática com a ISO/IEC 27001. A conformidade depende da aplicação dos requisitos pertinentes e das evidências correspondentes no contexto do SGSI.
 
 ## 19. Documentos relacionados
 
@@ -423,15 +502,20 @@ Este documento deve ser articulado com:
 - Metodologia de Gestão de Riscos de Segurança da Informação;
 - Registro de Riscos;
 - Declaração de Aplicabilidade (SoA);
-- procedimentos e registros de implementação dos controles;
-- processos de monitoramento, auditoria e melhoria contínua.
+- modelos de registros e evidências de implementação dos controles;
+- Planejamento e Controle Operacional do SGSI;
+- Monitoramento, Medição, Análise e Avaliação do SGSI;
+- Metodologia de Auditoria Interna do SGSI;
+- Análise Crítica pela Direção e Melhoria Contínua do SGSI.
 
 A existência desses documentos no repositório representa sua inclusão na estrutura de referência, não a comprovação de aprovação ou implementação organizacional.
 
 ## 20. Referências
 
-- ISO/IEC 27001:2022 — Information security, cybersecurity and privacy protection — Information security management systems — Requirements.
-- ISO/IEC 27002:2022 — Information security, cybersecurity and privacy protection — Information security controls.
-- ISO 31000 — Risk management — Guidelines, como referência complementar, quando adotada pela organização.
+- ISO/IEC 27001:2022 — *Information security, cybersecurity and privacy protection — Information security management systems — Requirements*.
+- ISO/IEC 27001:2022/Amd 1:2024 — *Climate action changes*.
+- ISO/IEC 27005:2022 — *Information security, cybersecurity and privacy protection — Guidance on managing information security risks*.
+- ISO/IEC 27002:2022 — *Information security, cybersecurity and privacy protection — Information security controls*.
+- ISO 31000 — *Risk management — Guidelines*, como referência complementar, quando adotada pela organização.
 
 Consultar as publicações oficiais para confirmar os requisitos e as orientações aplicáveis.
