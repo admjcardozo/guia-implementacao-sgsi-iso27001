@@ -3,7 +3,7 @@
 **Projeto:** Guia Técnico de Implementação do SGSI — ISO/IEC 27001:2022  
 **Autor:** José Eduardo Moura Cardozo  
 **Categoria:** Contexto, liderança e diretrizes do SGSI  
-**Situação:** Em desenvolvimento  
+**Situação:** Documento-base publicado — sujeito a revisão  
 **Versão:** 1.0  
 **Referência normativa principal:** ISO/IEC 27001:2022, cláusula 5.2
 
@@ -498,6 +498,6 @@ As referências deverão ser verificadas antes de seu uso em uma implementação
 
 **Projeto:** Guia Técnico de Implementação do SGSI — ISO/IEC 27001:2022  
 **Autor:** José Eduardo Moura Cardozo  
-**Situação:** Em desenvolvimento
+**Situação:** Documento-base publicado — sujeito a revisão
 
 *Documento autoral de orientação técnica. O modelo de política apresentado é hipotético e exige adaptação, análise e aprovação antes de ser utilizado por uma organização real.*
