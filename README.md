@@ -204,3 +204,13 @@ O conteúdo deste repositório é um material autoral de referência. A utiliza�
 **Autor:** José Eduardo Moura Cardozo  
 **Status:** Em desenvolvimento  
 **Natureza:** Projeto autoral, conceitual e educacional
+
+## 12. Direitos autorais e condições de uso
+
+Este repositório contém material autoral de referência. O acesso público destina-se à consulta e à avaliação profissional e não concede uma licença geral para reprodução, redistribuição, adaptação ou exploração comercial dos materiais originais.
+
+Consulte o arquivo [LICENSE.md](LICENSE.md) para conhecer o aviso de direitos autorais, os usos permitidos, as restrições aplicáveis e a distinção entre conteúdo autoral e materiais de terceiros, incluindo normas técnicas citadas.
+
+As normas ISO/IEC e outras referências mencionadas permanecem sujeitas aos direitos de seus respectivos titulares. A publicação deste projeto não implica afiliação, endosso ou autorização para reproduzir conteúdo protegido dessas fontes.
+
+A publicação pública no GitHub continua sujeita aos Termos de Serviço da plataforma, inclusive às permissões necessárias para visualizar e fazer *fork* do repositório dentro do GitHub.
