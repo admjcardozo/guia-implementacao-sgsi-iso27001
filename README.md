@@ -8,11 +8,11 @@
 
 ## 1. Sobre o projeto
 
-Este projeto tem como objetivo desenvolver um guia técnico para profissionais que desejam compreender e estruturar a implementação de um Sistema de Gestão de Segurança da Informação (SGSI) baseado na ISO/IEC 27001:2022.
+Desenvolvi este guia para organizar, em uma sequência de trabalho, os principais elementos envolvidos na estruturação de um Sistema de Gestão de Segurança da Informação (SGSI) com referência na ISO/IEC 27001:2022.
 
-O repositório reúne documentos de referência, metodologia de implementação, orientações de governança, gestão de riscos, controles de segurança, políticas, procedimentos e modelos de registros reutilizáveis.
+O repositório reúne documentos de referência, metodologia, orientações de governança e gestão de riscos, estrutura de controles, políticas, procedimentos e modelos de registros.
 
-O desenvolvimento considera a rastreabilidade entre requisitos normativos, riscos, controles, documentos, responsabilidades e evidências, buscando manter coerência entre governança, planejamento, operação, monitoramento, auditoria e melhoria contínua.
+Uma preocupação central do trabalho é manter a relação entre requisitos, riscos, controles, documentos, responsabilidades e evidências. Essa rastreabilidade ajuda a entender por que cada artefato existe e como ele se conecta às demais partes do sistema de gestão.
 
 O material destina-se a profissionais de Segurança da Informação, GRC (*Governance, Risk and Compliance*), gestão de riscos, auditoria, infraestrutura, operações de TI e consultoria.
 
@@ -76,7 +76,7 @@ O projeto utiliza explicações autorais e referências técnicas, sem a intenç
 
 ## 5. Metodologia de implementação
 
-A metodologia está organizada em domínios técnicos relacionados entre si. A sequência de trabalho deve considerar os requisitos normativos, as dependências entre entregáveis, as decisões de governança e as evidências necessárias.
+Organizei a metodologia em 17 domínios documentais. Eles representam a forma como distribuí os conteúdos do guia; não devem ser confundidos com etapas ou fases obrigatórias de implantação. Em uma aplicação real, a sequência de trabalho precisa considerar os requisitos, as dependências, as decisões de governança e as evidências necessárias.
 
 ### Domínios documentais
 
@@ -182,7 +182,7 @@ A elaboração e a revisão dos artefatos consideram os seguintes critérios:
 
 ## 10. Situação do projeto
 
-O repositório encontra-se em desenvolvimento progressivo. Já conta com documentos técnicos distribuídos em domínios de implementação do SGSI e modelos de apoio para registros e atividades de gestão.
+O repositório continua em desenvolvimento. A versão `v1.0.0` representa a primeira edição consolidada publicada, não o encerramento do trabalho. Os documentos e modelos seguem sujeitos a revisão, ampliação e ajustes de coerência.
 
 A publicação de um artefato representa a disponibilização de conteúdo documental no repositório. Não equivale a uma validação independente de conformidade, nem comprova que os controles descritos tenham sido implementados ou testados em uma organização real.
 
@@ -202,7 +202,7 @@ O conteúdo deste repositório é um material autoral de referência. A utiliza�
 
 **Projeto:** Guia Técnico de Implementação do SGSI — ISO/IEC 27001:2022  
 **Autor:** José Eduardo Moura Cardozo  
-**Status:** Em desenvolvimento  
+**Status:** Em desenvolvimento contínuo — versão publicada `v1.0.0`  
 **Natureza:** Projeto autoral, conceitual e educacional
 
 ## 12. Direitos autorais e condições de uso
