@@ -8,7 +8,7 @@ O objetivo é oferecer uma referência estruturada para profissionais que precis
 
 A documentação reúne fundamentos, metodologias, orientações de implementação, referências técnicas e modelos reutilizáveis. Os materiais devem ser adaptados ao contexto, aos riscos, às obrigações e às necessidades de cada organização.
 
-**Importante:** a publicação de um documento neste repositório significa que seu conteúdo está disponível no projeto. Não comprova a implementação de um SGSI em uma organização real, a eficácia dos controles ou a obtenção de certificação.
+**Importante:** este índice descreve a documentação publicada no projeto. O repositório é conceitual e não representa a implantação de um SGSI em uma organização real nem comprova eficácia de controles ou certificação.
 
 ## 2. Como utilizar a documentação
 
@@ -30,7 +30,7 @@ A estrutura contempla:
 - Modelos de documentos, formulários e registros.
 - Referências técnicas, normativas e glossário.
 
-A documentação deve ser utilizada como apoio à análise e à implementação. A existência de um documento não demonstra, isoladamente, que o requisito correspondente foi implementado ou que um controle funciona eficazmente.
+Use a documentação como apoio ao estudo e ao planejamento. Em uma implementação real, requisitos e controles precisam ser avaliados por meio de execução e evidências adequadas.
 
 ## 3. Estrutura documental
 
@@ -56,7 +56,7 @@ A tabela apresenta a organização do repositório e a situação geral dos docu
 | `16-modelos-e-registros/` | Modelos reutilizáveis para apoiar os processos do SGSI. | Biblioteca de modelos publicada; sujeita a evolução |
 | `17-referencias-e-glossario/` | Referências técnicas, normativas e glossário. | Documentos-base publicados |
 
-A indicação de documento-base publicado significa que existe conteúdo orientador no repositório. Não significa que todos os procedimentos, registros, controles ou evidências necessários para implementar um SGSI estejam completos.
+A situação “Documento-base publicado” indica que há conteúdo orientador disponível naquele domínio. Não significa que todos os artefatos necessários a uma implementação real estejam concluídos.
 
 ## 4. Índice dos documentos técnicos principais
 
@@ -152,7 +152,7 @@ Os modelos são instrumentos de apoio. Sua aplicação em uma organização exig
 
 A biblioteca contém os modelos acima, totalizando 17 arquivos. A relação deve ser revisada sempre que novos modelos forem adicionados, renomeados ou removidos.
 
-A publicação de um modelo não comprova seu preenchimento, sua aprovação ou sua utilização em uma organização.
+Os modelos estão disponíveis para consulta e adaptação. Seu preenchimento, aprovação e uso dependem da organização que decidir adotá-los.
 
 ## 7. Referências técnicas, normativas e glossário
 
@@ -199,7 +199,7 @@ A documentação deve manter coerência entre:
 
 Quando pertinente, os documentos devem apresentar referências cruzadas para os artefatos relacionados.
 
-A existência de uma política, um procedimento ou um modelo não deve ser interpretada isoladamente como prova de implementação, conformidade ou eficácia.
+Políticas, procedimentos e modelos são elementos documentais. A avaliação de implementação, conformidade ou eficácia depende de evidências de execução.
 
 ## 9. Situação dos documentos
 
@@ -228,7 +228,7 @@ O material:
 - Não comprova a implementação de controles em uma organização.
 - Não substitui auditoria independente ou avaliação profissional especializada.
 
-A conclusão documental do projeto significa que os materiais previstos foram desenvolvidos e revisados dentro do escopo definido. Ela não equivale à implementação ou certificação de um SGSI.
+A conclusão documental indica que os materiais previstos no escopo do guia foram desenvolvidos e revisados. Não equivale à implantação ou certificação de um SGSI.
 
 ## 11. Próximas atividades de desenvolvimento
 
@@ -249,4 +249,4 @@ A conclusão dessas atividades deverá ser registrada de acordo com as verifica�
 **Autor:** José Eduardo Moura Cardozo  
 **Situação:** Documento-base publicado — sujeito a revisão
 
-*Este índice orienta a navegação pela documentação do guia autoral. A existência dos links e dos documentos não comprova implementação, conformidade ou certificação de um SGSI real.*
+*Este índice orienta a navegação pela documentação do guia. O projeto é conceitual; seus documentos não constituem evidência de implantação ou certificação de um SGSI real.*
