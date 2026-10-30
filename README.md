@@ -1,6 +1,6 @@
 # Guia Técnico de Implementação do SGSI — ISO/IEC 27001:2022
 
-![Capa do guia técnico de implementação do SGSI](assets/capa-projeto.svg)
+![Capa do guia técnico de implementação do SGSI](assets/capa-projeto-sgsi.png)
 
 **Projeto autoral de referência para planejamento, implementação, operação, avaliação e melhoria de um Sistema de Gestão de Segurança da Informação (SGSI), com foco em gestão de riscos, controles de segurança, documentação e preparação para certificação.**
 
