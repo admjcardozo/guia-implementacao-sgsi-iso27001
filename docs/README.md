@@ -164,13 +164,19 @@ Consulte [Referências Técnicas e Normativas do SGSI](17-referencias-e-glossari
 
 O documento apresenta as principais referências utilizadas no guia, suas finalidades, fontes oficiais e critérios de atualização.
 
-### 7.2. Glossário
+### 7.2. Uso das referências complementares
+
+Consulte [Uso das Referências Complementares de Segurança da Informação](17-referencias-e-glossario/uso-das-referencias-complementares-de-seguranca-da-informacao.md).
+
+O documento explica como utilizar orientações de implementação, auditoria, gestão de riscos, serviços em nuvem, privacidade e CIS Controls sem confundir essas fontes com os requisitos da ISO/IEC 27001.
+
+### 7.3. Glossário
 
 Consulte [Glossário de Segurança da Informação e SGSI](17-referencias-e-glossario/glossario-de-seguranca-da-informacao.md).
 
 O glossário padroniza conceitos relacionados a SGSI, gestão de riscos, controles, documentação, operação, auditoria e certificação. Também diferencia termos frequentemente confundidos, como ameaça e vulnerabilidade, evento e incidente, documento e registro, correção e ação corretiva.
 
-### 7.3. Referências principais
+### 7.4. Referências principais
 
 Entre as referências utilizadas no projeto estão:
 
