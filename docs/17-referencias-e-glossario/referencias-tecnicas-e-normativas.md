@@ -241,13 +241,14 @@ A existência desta lista não comprova que todas as referências tenham sido in
 | Versão | Alteração | Status |
 |---|---|---|
 | 1.0 | Criação do documento de referências técnicas e normativas do projeto. | Inicial |
+| 1.1 | Atualização da hierarquia normativa e alinhamento das referências às edições vigentes, incluindo ISO/IEC 27017:2026 e ISO/IEC 27701:2025. | Revisado |
 
 ---
 
 **Projeto:** Guia Técnico de Implementação do SGSI — ISO/IEC 27001:2022  
 **Autor:** José Eduardo Moura Cardozo  
 **Documento:** Referências Técnicas e Normativas do SGSI  
-**Status:** Em desenvolvimento
+**Status:** Revisado — versão documental 1.1
 
 
 ## 10. Referências complementares incorporadas ao desenvolvimento
