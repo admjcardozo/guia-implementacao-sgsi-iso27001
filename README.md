@@ -59,25 +59,64 @@ A seleção e a aplicação de controles devem considerar o contexto, os riscos,
 
 ## 4. Referências normativas e técnicas
 
-A documentação utiliza como referências principais:
+Este projeto utiliza as referências abaixo como fundamento para estruturar o SGSI e orientar a implementação de medidas de segurança. A relação contempla todas as normas, referências técnicas e frameworks identificados como utilizados no desenvolvimento do guia. Para facilitar a leitura, estão organizados conforme sua finalidade.
 
-| Referência | Aplicação no guia |
+### 4.1. Requisitos e controles do SGSI
+
+| Referência | Aplicação no projeto |
 |---|---|
-| ISO/IEC 27001:2022 + Emenda 1:2024 | Requisitos auditáveis para certificação do SGSI e referência para os controles do Anexo A. |
-| ISO/IEC 27002:2022 | Orientações para seleção e implementação de controles de Segurança da Informação. |
-| ISO/IEC 27005:2022 | Diretrizes complementares para gestão de riscos de Segurança da Informação. |
-| ISO 31000 | Princípios e diretrizes gerais para gestão de riscos. |
-| ISO 19011:2026 | Diretrizes para auditoria de sistemas de gestão. |
-| ISO/IEC 17021-1 | Requisitos para organismos que realizam auditoria e certificação de sistemas de gestão. |
-| Lei nº 13.709/2018 — LGPD | Referência legal para proteção de dados pessoais, quando aplicável. |
+| **ISO/IEC 27001:2022 + Emenda 1:2024** | Requisitos do Sistema de Gestão de Segurança da Informação. É a referência de requisitos auditáveis para certificação do SGSI. |
+| **ISO/IEC 27002:2022** | Orientações para seleção, interpretação, desenho e implementação de controles de Segurança da Informação. |
 
-Como referências complementares para o desenho e a priorização de medidas de segurança, o projeto também utiliza as normas da família ISO/IEC 27000 aplicáveis a implementação, auditoria, nuvem e privacidade, além dos **CIS Critical Security Controls v8.1.2** e do **CIS Controls Roadmap (novembro de 2024)**. Essas fontes apoiam a construção da capacidade de segurança da organização; não são requisitos adicionais de certificação ISO/IEC 27001.
+### 4.2. Implementação e gestão de riscos
 
-As referências específicas, suas edições e sua aplicabilidade devem ser verificadas nos documentos técnicos correspondentes e nas fontes oficiais.
+| Referência | Aplicação no projeto |
+|---|---|
+| **ABNT NBR ISO/IEC 27003:2020** | Orientações para implementação do SGSI e organização das atividades relacionadas às cláusulas da ISO/IEC 27001. |
+| **ISO/IEC 27005:2022** | Orientações para gestão de riscos de Segurança da Informação, incluindo contexto, avaliação, tratamento, comunicação e monitoramento. |
+| **ISO 31000:2018** | Princípios e diretrizes gerais para integrar a gestão de riscos à governança e aos processos organizacionais. |
 
-A menção a uma norma não significa que todos os seus requisitos sejam aplicáveis a qualquer organização. A aplicabilidade depende do contexto, do objetivo do documento e dos requisitos pertinentes.
+### 4.3. Auditoria e certificação
 
-O projeto utiliza explicações autorais e referências técnicas, sem a intenção de reproduzir extensos trechos protegidos das normas.
+| Referência | Aplicação no projeto |
+|---|---|
+| **ABNT NBR ISO/IEC 27007:2021** | Diretrizes específicas para auditoria de Sistemas de Gestão de Segurança da Informação. |
+| **ISO 19011:2026** | Diretrizes gerais para auditoria de sistemas de gestão, incluindo programa de auditoria, condução e competência dos auditores. |
+| **ISO/IEC 17021-1:2015** | Requisitos para organismos que realizam auditoria e certificação de sistemas de gestão. Referência de contexto para auditoria de terceira parte. |
+
+### 4.4. Segurança em nuvem e privacidade
+
+| Referência | Aplicação no projeto |
+|---|---|
+| **ISO/IEC 27017:2026** | Controles e orientações de segurança específicos para serviços em nuvem, incluindo responsabilidades entre clientes e provedores. O material de estudo anexado corresponde à edição ABNT de 2016. |
+| **ISO/IEC 27018:2025** | Proteção de dados pessoais em serviços de nuvem pública, considerando o papel do provedor como processador. |
+| **ISO/IEC 27701:2025** | Requisitos e orientações para Sistema de Gestão de Informações de Privacidade (PIMS), quando esse escopo fizer parte dos objetivos da organização. O material ABNT de 2019 foi tratado como referência histórica de estudo. |
+
+### 4.5. Segurança cibernética e priorização de salvaguardas
+
+| Referência | Aplicação no projeto |
+|---|---|
+| **CIS Critical Security Controls v8.1.2 (março de 2025)** | Framework de salvaguardas para identificar medidas técnicas, avaliar lacunas e priorizar iniciativas de defesa cibernética por meio dos grupos IG1, IG2 e IG3. |
+| **A Roadmap to the CIS Critical Security Controls (novembro de 2024)** | Apoio ao planejamento da adoção progressiva dos CIS Controls e à organização de iniciativas de melhoria. |
+
+Os CIS Controls complementam a análise de riscos e a determinação dos controles necessários. Sua aplicação não se limita aos controles com correspondência no Anexo A da ISO/IEC 27001: a organização pode adotar salvaguardas adicionais sempre que necessárias para tratar seus riscos.
+
+### 4.6. Legislação brasileira
+
+| Referência | Aplicação no projeto |
+|---|---|
+| **Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais (LGPD)** | Referência legal para operações de tratamento de dados pessoais, direitos dos titulares e medidas de segurança, quando aplicável. |
+
+### 4.7. Critérios de interpretação
+
+As referências possuem naturezas e finalidades distintas. A ISO/IEC 27001 estabelece os requisitos do SGSI; as demais normas oferecem orientações, tratam de escopos específicos ou estabelecem requisitos próprios para outros sistemas de gestão. Os CIS Controls fornecem salvaguardas técnicas priorizadas, enquanto a LGPD constitui obrigação legal quando aplicável.
+
+A certificação do SGSI, quando pretendida, é avaliada com base nos requisitos aplicáveis da ISO/IEC 27001:2022, considerada com a Emenda 1:2024, e nas evidências da organização. As demais referências apoiam a implementação e a operação da segurança, mas não constituem requisitos adicionais para essa certificação.
+
+A relação acima identifica as fontes utilizadas no desenvolvimento do guia; não significa que todos os seus requisitos ou controles sejam aplicáveis a qualquer organização. A seleção depende do contexto, dos riscos, dos ativos, das obrigações legais e contratuais e dos objetivos de segurança.
+
+Para consultar a finalidade, as limitações de edição e o uso de cada referência, consulte [Referências Técnicas e Normativas do SGSI](docs/17-referencias-e-glossario/referencias-tecnicas-e-normativas.md) e [Uso das Referências Complementares de Segurança da Informação](docs/17-referencias-e-glossario/uso-das-referencias-complementares-de-seguranca-da-informacao.md).
+
 
 ## 5. Metodologia de implementação
 
