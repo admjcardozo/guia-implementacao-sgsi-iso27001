@@ -50,7 +50,7 @@ Os domínios documentais incluem:
 - Análise crítica pela direção, não conformidades e melhoria contínua.
 - Preparação para certificação.
 - Modelos, formulários, registros e instrumentos de apoio.
-- Referências técnicas e glossário.
+- Referências técnicas, glossário e orientações de uso das referências complementares.
 
 A seleção e a aplicação de controles devem considerar o contexto, os riscos, os requisitos legais e contratuais e as decisões documentadas da organização responsável pelo SGSI. Os cenários apresentados neste projeto são conceituais, salvo indicação expressa em contrário.
 
@@ -156,7 +156,7 @@ O conteúdo está organizado em diretórios temáticos, com desenvolvimento prog
 | `docs/14-analise-critica-e-melhoria/` | Análise crítica pela direção e melhoria contínua. |
 | `docs/15-certificacao/` | Orientações para preparação e processo de certificação. |
 | `docs/16-modelos-e-registros/` | Modelos de documentos, formulários e registros reutilizáveis. |
-| `docs/17-referencias-e-glossario/` | Diretório planejado para referências técnicas, fontes e glossário. |
+| `docs/17-referencias-e-glossario/` | Referências técnicas, glossário e uso das referências complementares. |
 | `matrizes/` | Diretório previsto para matrizes consolidadas de apoio. |
 | `diagramas/` | Diretório previsto para fluxos, dependências e representações visuais. |
 | `exemplos/` | Diretório previsto para cenários hipotéticos e exemplos preenchidos. |
@@ -214,3 +214,10 @@ Consulte o arquivo [LICENSE.md](LICENSE.md) para conhecer o aviso de direitos au
 As normas ISO/IEC e outras referências mencionadas permanecem sujeitas aos direitos de seus respectivos titulares. A publicação deste projeto não implica afiliação, endosso ou autorização para reproduzir conteúdo protegido dessas fontes.
 
 A publicação pública no GitHub continua sujeita aos Termos de Serviço da plataforma, inclusive às permissões necessárias para visualizar e fazer *fork* do repositório dentro do GitHub.
+
+
+### Referências complementares
+
+Além das referências principais, incluí um documento para orientar o uso de materiais complementares sobre implementação do SGSI, auditoria, gestão de riscos, serviços em nuvem, privacidade e CIS Controls.
+
+Consulte [Uso das Referências Complementares de Segurança da Informação](docs/17-referencias-e-glossario/uso-das-referencias-complementares-de-seguranca-da-informacao.md). O documento diferencia requisitos normativos, orientações técnicas e materiais de estudo, além de registrar limitações de edição e licença.
