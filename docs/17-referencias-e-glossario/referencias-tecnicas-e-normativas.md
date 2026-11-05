@@ -248,3 +248,63 @@ A existência desta lista não comprova que todas as referências tenham sido in
 **Autor:** José Eduardo Moura Cardozo  
 **Documento:** Referências Técnicas e Normativas do SGSI  
 **Status:** Em desenvolvimento
+
+
+## 10. Referências complementares incorporadas ao desenvolvimento
+
+Além das referências principais, utilizei materiais complementares para aprofundar a metodologia e orientar a organização dos documentos do guia.
+
+### 10.1. ISO/IEC 27003:2020 — Orientações para implementação do SGSI
+
+A ABNT NBR ISO/IEC 27003:2020 oferece orientações relacionadas às cláusulas da ISO/IEC 27001, incluindo contexto, liderança, planejamento, apoio, operação, avaliação de desempenho e melhoria.
+
+**Aplicação no projeto:** apoio à organização das atividades de implementação, análise de dependências, definição de recursos, competência, conscientização, comunicação e controle da informação documentada.
+
+A 27003 é uma referência de orientação. Não substitui os requisitos da ISO/IEC 27001.
+
+### 10.2. ISO/IEC 27007:2021 — Auditoria de SGSI
+
+A ABNT NBR ISO/IEC 27007:2021 apresenta diretrizes específicas para auditoria de sistemas de gestão da segurança da informação.
+
+**Aplicação no projeto:** complementar o planejamento do programa de auditoria, a definição de objetivos, escopo e critérios, a seleção de métodos, a competência dos auditores e a avaliação das evidências relacionadas ao SGSI.
+
+Deve ser utilizada em conjunto com os requisitos de auditoria interna da ISO/IEC 27001 e com as diretrizes gerais de auditoria aplicáveis.
+
+### 10.3. ISO/IEC 27017 — Segurança em serviços de nuvem
+
+O arquivo anexado corresponde à ABNT NBR ISO/IEC 27017:2016 e aborda controles e orientações específicos para serviços em nuvem.
+
+**Aplicação no projeto:** análise de responsabilidades entre clientes e provedores, segurança nas relações contratuais, segregação de ambientes, proteção de dados e gestão de riscos associados aos serviços contratados.
+
+O acervo Excel utilizado no estudo apresenta uma seção de controles CLD identificada como edição 2026. Essa informação não deve ser combinada automaticamente com o PDF de 2016. A edição e o status dos controles precisam ser confirmados em fonte oficial antes de uso normativo.
+
+### 10.4. ISO/IEC 27018 — Proteção de dados pessoais em nuvens públicas
+
+O arquivo anexado está identificado como ISO/IEC 27018:2025 e trata da proteção de dados pessoais em nuvens públicas quando o provedor atua como processador. O próprio material informa que é destinado a estudo e pode conter erros de tradução automática.
+
+**Aplicação no projeto:** referência complementar para avaliar responsabilidades, instruções de tratamento, finalidade, retenção, eliminação, direitos dos titulares, contratos e medidas de segurança em cenários pertinentes.
+
+A aplicação depende do serviço e dos papéis exercidos pelas partes. O conteúdo deve ser conferido na publicação oficial antes de qualquer uso normativo.
+
+### 10.5. ISO/IEC 27701 — Gestão da privacidade da informação
+
+O arquivo ABNT anexado é um projeto de consulta de outubro de 2019 e informa expressamente que não possui valor normativo.
+
+**Aplicação no projeto:** o material pode apoiar o estudo histórico da relação entre gestão da segurança da informação e gestão da privacidade, mas não deve ser apresentado como norma publicada ou edição vigente. A edição oficial aplicável deve ser confirmada no catálogo da ISO e da ABNT.
+
+### 10.6. CIS Critical Security Controls v8.1.2
+
+O guia CIS v8.1.2, de março de 2025, e a planilha em português apresentam 18 controles, salvaguardas, classes de ativos, funções de segurança e grupos de implementação.
+
+**Aplicação no projeto:** apoiar a identificação e a priorização de medidas técnicas, a avaliação de lacunas e o planejamento progressivo da segurança cibernética.
+
+Os grupos IG1, IG2 e IG3 devem ser interpretados considerando perfil de risco, complexidade e recursos. Não substituem a avaliação de riscos nem a determinação de controles necessários da ISO/IEC 27001.
+
+O material informa licença CC BY-NC-ND 4.0. O repositório utiliza essa referência sem republicar ou distribuir versões modificadas das descrições e salvaguardas CIS.
+
+### 10.7. Materiais de apoio e planilhas de estudo
+
+O acervo dos 93 controles do Anexo A, o ebook ISO/IEC 27001 Lead Implementer e as planilhas CIS foram utilizados como materiais de apoio à análise e à organização metodológica.
+
+Esses materiais não substituem as normas oficiais. Exemplos, orientações didáticas, modelos e dados ilustrativos não devem ser tratados como requisitos normativos nem como evidências de implementação em uma organização real.
+
