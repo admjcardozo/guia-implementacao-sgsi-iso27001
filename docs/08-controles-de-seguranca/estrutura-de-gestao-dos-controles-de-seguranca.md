@@ -457,3 +457,29 @@ A inclusão de documentos no repositório representa a estrutura documental do p
 - ISO 31000 — Risk management — Guidelines, quando adotada como referência complementar.
 
 Consultar as publicações oficiais para confirmar os requisitos, as referências e as orientações aplicáveis.
+
+
+## 21. Uso dos atributos da ISO/IEC 27002
+
+A ISO/IEC 27002:2022 permite analisar os controles por atributos, além de sua organização em controles organizacionais, de pessoas, físicos e tecnológicos.
+
+No desenvolvimento deste guia, considero os atributos como uma forma adicional de organizar consultas e análises. Eles podem apoiar a identificação da finalidade do controle, das propriedades de segurança relacionadas, das capacidades operacionais envolvidas e dos domínios de segurança pertinentes.
+
+Essa classificação ajuda a responder perguntas diferentes:
+
+- Qual propriedade de segurança o controle ajuda a preservar?
+- Em qual função de segurança ele atua?
+- Que capacidade operacional precisa existir para executá-lo?
+- Quais outros controles e processos possuem dependência ou relação com ele?
+
+Os atributos não substituem a análise do cenário de risco, nem constituem uma medida automática de eficácia ou prioridade. A organização deve considerar o contexto e as evidências de implementação.
+
+## 22. Referências complementares e priorização técnica
+
+Os CIS Controls v8.1.2 podem ser utilizados como referência complementar para identificar e priorizar salvaguardas técnicas. Seus grupos IG1, IG2 e IG3 ajudam a organizar uma evolução progressiva, considerando perfil de risco, complexidade operacional e recursos disponíveis.
+
+A utilização dos CIS Controls deve manter a distinção entre salvaguarda técnica e controle do Anexo A. Uma correspondência temática não demonstra equivalência nem atendimento integral. Quando houver mapeamento, a organização deve verificar escopo, objetivo, ativos abrangidos, responsabilidades, implementação e evidências.
+
+Em serviços de nuvem, a ISO/IEC 27017 pode apoiar a análise das responsabilidades entre cliente, provedor e parceiros. Quando houver tratamento de dados pessoais em nuvem pública, a ISO/IEC 27018 pode ser considerada conforme o papel das partes e o serviço utilizado. Essas referências não são aplicáveis automaticamente a todo ambiente.
+
+A determinação dos controles necessários continua vinculada ao processo de tratamento de riscos, às obrigações e às necessidades da organização, conforme a ISO/IEC 27001. As referências complementares apoiam essa análise, mas não substituem a SoA.
