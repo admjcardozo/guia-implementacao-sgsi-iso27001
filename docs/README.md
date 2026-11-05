@@ -4,7 +4,7 @@
 
 Este diretório reúne a documentação técnica do projeto autoral **Guia Técnico de Implementação do SGSI — ISO/IEC 27001:2022**, de autoria de José Eduardo Moura Cardozo.
 
-O objetivo é oferecer uma referência estruturada para profissionais que precisam compreender, planejar, implementar, operar, avaliar e melhorar um Sistema de Gestão de Segurança da Informação (SGSI).
+O objetivo é oferecer uma referência estruturada para profissionais que precisam compreender, planejar, implementar, operar, avaliar e melhorar um Sistema de Gestão de Segurança da Informação (SGSI), com foco na proteção efetiva dos ativos, informações, processos e serviços da organização. O projeto não se limita à preparação para certificação: busca orientar a construção de uma postura de segurança baseada em riscos, com prevenção, detecção, resposta e recuperação.
 
 A documentação reúne fundamentos, metodologias, orientações de implementação, referências técnicas e modelos reutilizáveis. Os materiais devem ser adaptados ao contexto, aos riscos, às obrigações e às necessidades de cada organização.
 
@@ -26,11 +26,12 @@ A estrutura contempla:
 - Planejamento e controle operacional.
 - Monitoramento, indicadores e avaliação de desempenho.
 - Auditoria interna, análise crítica e melhoria contínua.
-- Preparação para auditorias externas e certificação.
+- Referências complementares e frameworks de segurança, incluindo CIS Controls, para apoiar a seleção e a priorização de salvaguardas.
+- Preparação para auditorias externas e certificação, quando esse objetivo fizer parte da estratégia da organização.
 - Modelos de documentos, formulários e registros.
 - Referências técnicas, normativas e glossário.
 
-Use a documentação como apoio ao estudo e ao planejamento. Em uma implementação real, requisitos e controles precisam ser avaliados por meio de execução e evidências adequadas.
+Use a documentação como apoio ao estudo, ao planejamento e à implementação. Em uma aplicação real, a organização deve selecionar, implementar, operar, monitorar, testar e aprimorar medidas de segurança conforme seus riscos e obrigações. A certificação é uma possibilidade de avaliação do sistema de gestão, não o objetivo único nem a medida completa da segurança da organização.
 
 ## 3. Estrutura documental
 
@@ -228,7 +229,7 @@ Os exemplos e modelos devem ser adaptados ao contexto organizacional, aos riscos
 
 O material:
 
-- Não garante a obtenção de certificação.
+- Não garante a obtenção de certificação nem a eliminação de todos os riscos. Segurança absoluta não pode ser assegurada; o objetivo é reduzir riscos a níveis compatíveis com os critérios e a tolerância definidos pela organização, mantendo capacidade de detectar, responder e recuperar-se de eventos.
 - Não substitui as normas oficiais.
 - Não substitui a análise dos requisitos aplicáveis.
 - Não comprova a implementação de controles em uma organização.
