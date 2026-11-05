@@ -17,7 +17,7 @@ A inclusão de uma referência nesta relação não significa que todos os seus 
 
 ## 2. Referências normativas principais
 
-### 2.1. ISO/IEC 27001:2022 — Sistema de Gestão de Segurança da Informação
+### 2.1. ISO/IEC 27001:2022 + Emenda 1:2024 — Sistema de Gestão de Segurança da Informação
 
 **Título:** Information security, cybersecurity and privacy protection — Information security management systems — Requirements.
 
@@ -35,7 +35,7 @@ A inclusão de uma referência nesta relação não significa que todos os seus 
 - Análise crítica pela direção e melhoria.
 - Referência aos controles do Anexo A.
 
-A ISO/IEC 27001 é a principal referência de requisitos para o sistema de gestão abordado neste guia.
+A ISO/IEC 27001:2022, considerada em conjunto com a Emenda 1:2024, é a única referência de requisitos auditáveis para a certificação do SGSI neste projeto. A avaliação de conformidade para certificação deve considerar os requisitos aplicáveis dessa norma. As demais publicações citadas neste guia fornecem diretrizes, referências técnicas ou requisitos de outros escopos, mas não substituem nem ampliam por si mesmas os critérios de certificação do SGSI.
 
 **Fonte oficial:** https://www.iso.org/standard/27001
 
@@ -254,7 +254,7 @@ A existência desta lista não comprova que todas as referências tenham sido in
 
 Além das referências principais, utilizei materiais complementares para aprofundar a metodologia e orientar a organização dos documentos do guia.
 
-### 10.1. ISO/IEC 27003:2020 — Orientações para implementação do SGSI
+### 10.1. ABNT NBR ISO/IEC 27003:2020 — Orientações para implementação do SGSI
 
 A ABNT NBR ISO/IEC 27003:2020 oferece orientações relacionadas às cláusulas da ISO/IEC 27001, incluindo contexto, liderança, planejamento, apoio, operação, avaliação de desempenho e melhoria.
 
@@ -262,7 +262,7 @@ A ABNT NBR ISO/IEC 27003:2020 oferece orientações relacionadas às cláusulas 
 
 A 27003 é uma referência de orientação. Não substitui os requisitos da ISO/IEC 27001.
 
-### 10.2. ISO/IEC 27007:2021 — Auditoria de SGSI
+### 10.2. ABNT NBR ISO/IEC 27007:2021 — Auditoria de SGSI
 
 A ABNT NBR ISO/IEC 27007:2021 apresenta diretrizes específicas para auditoria de sistemas de gestão da segurança da informação.
 
@@ -270,27 +270,29 @@ A ABNT NBR ISO/IEC 27007:2021 apresenta diretrizes específicas para auditoria d
 
 Deve ser utilizada em conjunto com os requisitos de auditoria interna da ISO/IEC 27001 e com as diretrizes gerais de auditoria aplicáveis.
 
-### 10.3. ISO/IEC 27017 — Segurança em serviços de nuvem
+### 10.3. ISO/IEC 27017:2026 — Segurança em serviços de nuvem
 
-O arquivo anexado corresponde à ABNT NBR ISO/IEC 27017:2016 e aborda controles e orientações específicos para serviços em nuvem.
+A edição internacional vigente identificada no catálogo da ISO é a ISO/IEC 27017:2026, segunda edição, publicada em julho de 2026. Ela substitui a edição ISO/IEC 27017:2015, adotada no Brasil como ABNT NBR ISO/IEC 27017:2016.
 
-**Aplicação no projeto:** análise de responsabilidades entre clientes e provedores, segurança nas relações contratuais, segregação de ambientes, proteção de dados e gestão de riscos associados aos serviços contratados.
+**Aplicação no projeto:** utilizar a edição de 2026 como referência principal para controles e orientações específicos de serviços em nuvem, incluindo a distribuição de responsabilidades entre clientes e provedores, ambientes, operações e serviços contratados.
 
-O acervo Excel utilizado no estudo apresenta uma seção de controles CLD identificada como edição 2026. Essa informação não deve ser combinada automaticamente com o PDF de 2016. A edição e o status dos controles precisam ser confirmados em fonte oficial antes de uso normativo.
+O PDF anexado de 2016 permanece como material de estudo da edição anterior. A planilha que identifica controles CLD da edição 2026 deve ser associada à edição atual, sem misturar descrições, numerações ou conteúdo da edição anterior. A revisão detalhada desses controles deve utilizar o texto da edição 2026.
 
-### 10.4. ISO/IEC 27018 — Proteção de dados pessoais em nuvens públicas
+### 10.4. ISO/IEC 27018:2025 — Proteção de dados pessoais em nuvens públicas
 
-O arquivo anexado está identificado como ISO/IEC 27018:2025 e trata da proteção de dados pessoais em nuvens públicas quando o provedor atua como processador. O próprio material informa que é destinado a estudo e pode conter erros de tradução automática.
+A ISO/IEC 27018:2025 é a edição atual identificada para proteção de informações pessoalmente identificáveis em nuvens públicas quando o provedor atua como processador.
 
 **Aplicação no projeto:** referência complementar para avaliar responsabilidades, instruções de tratamento, finalidade, retenção, eliminação, direitos dos titulares, contratos e medidas de segurança em cenários pertinentes.
 
-A aplicação depende do serviço e dos papéis exercidos pelas partes. O conteúdo deve ser conferido na publicação oficial antes de qualquer uso normativo.
+O arquivo anexado está identificado como edição 2025 e informa que é destinado a estudo e pode conter inadequações de tradução automática. A edição 2025 deve prevalecer sobre materiais de edições anteriores. Para interpretação formal, deve-se consultar a publicação oficial.
 
-### 10.5. ISO/IEC 27701 — Gestão da privacidade da informação
+### 10.5. ISO/IEC 27701:2025 — Sistema de Gestão de Informações de Privacidade
 
-O arquivo ABNT anexado é um projeto de consulta de outubro de 2019 e informa expressamente que não possui valor normativo.
+A ISO/IEC 27701:2025 é a segunda edição, publicada em outubro de 2025. Ela substitui a ISO/IEC 27701:2019 e foi redigida como norma independente de sistema de gestão de informações de privacidade, não apenas como extensão da ISO/IEC 27001 e da ISO/IEC 27002.
 
-**Aplicação no projeto:** o material pode apoiar o estudo histórico da relação entre gestão da segurança da informação e gestão da privacidade, mas não deve ser apresentado como norma publicada ou edição vigente. A edição oficial aplicável deve ser confirmada no catálogo da ISO e da ABNT.
+**Aplicação no projeto:** utilizar a edição de 2025 como referência atual para estruturar e avaliar um Sistema de Gestão de Informações de Privacidade (PIMS), quando esse escopo fizer parte dos objetivos da organização. Sua aplicação não altera os requisitos de certificação do SGSI estabelecidos pela ISO/IEC 27001.
+
+O projeto ABNT de consulta de 2019 anexado permanece como material histórico de estudo da edição anterior. Não deve ser utilizado como substituto da publicação de 2025.
 
 ### 10.6. CIS Critical Security Controls v8.1.2
 
