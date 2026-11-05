@@ -541,3 +541,28 @@ A existência desses documentos no repositório representa uma estrutura documen
 - ISO 31000:2018 — *Risk management — Guidelines*.
 
 Consultar as publicações oficiais para confirmar os requisitos, as definições, as edições e as orientações aplicáveis.
+
+
+## 21. Comunicação e consulta durante a gestão de riscos
+
+A comunicação e a consulta devem acompanhar o processo de gestão de riscos. Não se limitam à divulgação do resultado final da avaliação.
+
+A organização deve definir como as informações serão compartilhadas entre proprietários dos riscos, responsáveis pelos processos, responsáveis técnicos, direção e demais partes interessadas pertinentes.
+
+Conforme o contexto, a comunicação e a consulta podem apoiar:
+
+- a obtenção de informações para identificar e analisar riscos;
+- o entendimento comum dos cenários e de suas possíveis consequências;
+- a apresentação dos resultados da avaliação e das opções de tratamento;
+- a discussão de prioridades, responsabilidades e recursos;
+- a aprovação dos planos de tratamento;
+- a aceitação ou o escalonamento de riscos residuais;
+- a coordenação da resposta a incidentes e situações de emergência;
+- a revisão de riscos diante de mudanças relevantes;
+- o registro de decisões e o acompanhamento das ações.
+
+A organização deve considerar planos de comunicação para as atividades regulares e para situações de emergência. Os canais, os responsáveis, os destinatários, os prazos e os critérios de escalonamento devem ser compatíveis com a natureza dos riscos e com os requisitos legais, contratuais e operacionais aplicáveis.
+
+A comunicação não transfere a responsabilidade pela decisão. O proprietário do risco continua responsável pelas decisões que lhe competem, dentro dos limites de autoridade estabelecidos.
+
+As informações documentadas devem permitir reconstruir as principais comunicações e decisões relevantes, sem expor indevidamente informações sensíveis.
