@@ -4,7 +4,7 @@
 
 Neste documento organizei como as referências complementares podem apoiar a aplicação do Guia Técnico de Implementação do SGSI. A intenção é ampliar a utilidade do projeto sem misturar requisitos normativos, orientações técnicas, modelos de implementação e estruturas de priorização.
 
-A ISO/IEC 27001:2022 continua sendo a referência central de requisitos do SGSI. As demais fontes apoiam atividades específicas, mas não substituem a avaliação de riscos, as decisões da organização nem os requisitos da norma principal.
+A ISO/IEC 27001:2022, considerada com a Emenda 1:2024, estabelece os requisitos auditáveis para a certificação do SGSI. As demais fontes deste documento são referências de orientação, apoio técnico ou extensões de escopo. Elas não substituem nem ampliam por si mesmas os critérios de certificação do SGSI.
 
 Este documento é metodológico. Não representa uma avaliação de conformidade nem determina antecipadamente quais controles devem ser adotados por uma organização.
 
@@ -17,9 +17,9 @@ Este documento é metodológico. Não representa uma avaliação de conformidade
 | ISO/IEC 27003:2020 | Orientação para implementação do SGSI | Apoiar o planejamento e a organização do trabalho relacionado às cláusulas da ISO/IEC 27001. |
 | ISO/IEC 27005:2022 | Orientação para gestão de riscos de SI | Apoiar o estabelecimento do contexto, critérios, avaliação, tratamento, comunicação e monitoramento dos riscos. |
 | ISO/IEC 27007:2021 | Orientação para auditoria de SGSI | Complementar o programa e os métodos de auditoria interna, considerando as particularidades do SGSI. |
-| ISO/IEC 27017:2015 / ABNT NBR ISO/IEC 27017:2016 | Orientação para controles em serviços de nuvem | Apoiar a análise de responsabilidades e controles em relações entre clientes e provedores de serviços em nuvem. Confirmar a edição vigente antes de aplicação formal. |
-| ISO/IEC 27018 | Orientação para proteção de dados pessoais em nuvens públicas | Considerar quando o cenário envolver provedores de nuvem pública que processem dados pessoais. Confirmar a edição oficial e o papel da organização no tratamento. |
-| ISO/IEC 27701 | Gestão da privacidade da informação | Considerar quando houver necessidade de estruturar um sistema de gestão de privacidade articulado à segurança da informação. Confirmar a edição publicada e vigente antes de utilizá-la como referência normativa. |
+| ISO/IEC 27017:2026 | Orientação para controles em serviços de nuvem | Edição vigente publicada em julho de 2026; utilizar como referência principal para controles e responsabilidades em serviços de nuvem. |
+| ISO/IEC 27018:2025 | Orientação para proteção de dados pessoais em nuvens públicas | Considerar quando o cenário envolver provedores de nuvem pública que processem dados pessoais, conforme os papéis das partes. |
+| ISO/IEC 27701:2025 | Requisitos e orientação para sistema de gestão de informações de privacidade | Edição independente vigente para estruturar um PIMS; não substitui os requisitos da ISO/IEC 27001 para certificação do SGSI. |
 | CIS Controls v8.1.2 | Salvaguardas técnicas priorizadas | Apoiar a seleção e a priorização de medidas práticas de defesa cibernética, sem substituir a determinação de controles da ISO/IEC 27001. |
 | CIS Controls Roadmap (novembro de 2024) | Orientação de adoção dos CIS Controls | Apoiar a compreensão dos grupos de implementação, recursos de avaliação e planejamento progressivo. |
 
@@ -121,7 +121,7 @@ Não se deve presumir que a contratação de um serviço em nuvem transfira ao p
 
 A organização deve registrar as responsabilidades relevantes, avaliar os riscos associados ao fornecedor e acompanhar as condições do serviço durante sua utilização.
 
-O PDF de ISO/IEC 27017 anexado corresponde à ABNT NBR ISO/IEC 27017:2016. O acervo Excel apresenta uma aba com quatro controles adicionais identificados como CLD da edição 2026. Como os arquivos representam edições diferentes, não combine esses conteúdos sem confirmar a publicação oficial, a edição e o status de cada controle.
+A ISO/IEC 27017:2026 foi publicada em julho de 2026 e substitui a edição internacional de 2015, adotada no Brasil como ABNT NBR ISO/IEC 27017:2016. Portanto, a edição de 2026 passa a ser a referência principal para o projeto. O PDF anexado de 2016 permanece apenas como material de estudo da edição anterior. A planilha que identifica controles CLD de 2026 deve ser associada à edição atual; não se devem misturar descrições, numerações ou requisitos das duas edições.
 
 ## 7. Proteção de dados pessoais e gestão da privacidade
 
@@ -141,7 +141,7 @@ Quando houver tratamento de dados pessoais, a análise deve considerar, conforme
 - medidas de segurança e evidências;
 - requisitos legais e regulatórios pertinentes.
 
-A ISO/IEC 27701 pode complementar essa análise com uma abordagem de sistema de gestão de privacidade. O arquivo anexado, porém, é um projeto ABNT de consulta de 2019 e não deve ser citado como se fosse uma edição normativa publicada e vigente. A edição aplicável precisa ser confirmada no catálogo oficial antes de qualquer uso normativo.
+A ISO/IEC 27701:2025 é a edição atual e foi publicada como norma independente de sistema de gestão de informações de privacidade. Ela substitui a edição de 2019, que tinha natureza de extensão à ISO/IEC 27001 e à ISO/IEC 27002. O projeto ABNT de consulta de 2019 anexado permanece como material histórico e não deve ser usado como referência principal quando a edição de 2025 for aplicável.
 
 A LGPD e os regulamentos aplicáveis devem ser avaliados conforme as operações de tratamento e os papéis efetivamente exercidos. A adoção de controles de segurança não comprova, isoladamente, conformidade com a legislação de proteção de dados.
 
@@ -183,7 +183,7 @@ Antes de incluir uma nova referência ou alterar um documento, aplico os seguint
 
 As referências complementares ampliam a análise técnica do guia, mas não substituem as publicações oficiais nem dispensam a avaliação do contexto organizacional.
 
-Os materiais anexados incluem normas publicadas, projeto de norma em consulta, documentos de estudo, traduções e materiais didáticos. Cada fonte deve ser utilizada conforme sua natureza e seus limites.
+Os materiais anexados são considerados fontes técnicas válidas e fiéis ao conteúdo das publicações correspondentes para fins de estudo e desenvolvimento deste projeto. A identificação de cópias de treinamento, traduções ou materiais didáticos descreve a forma do arquivo, não uma presunção de falta de veracidade. Quando o próprio documento estiver identificado como projeto de consulta, essa condição formal será registrada sem desqualificar seu conteúdo técnico como material de estudo.
 
 Os exemplos e as relações descritas neste documento são orientações metodológicas. A aplicação em uma organização real exige análise, seleção, aprovação, implementação e avaliação pelos responsáveis competentes.
 
@@ -194,7 +194,7 @@ Os exemplos e as relações descritas neste documento são orientações metodol
 - ABNT NBR ISO/IEC 27003:2020.
 - ISO/IEC 27005:2022 — considerada por meio do Projeto de Revisão ABNT de abril de 2023 anexado, identificado como documento sem valor normativo.
 - ABNT NBR ISO/IEC 27007:2021.
-- ABNT NBR ISO/IEC 27017:2016.
+- ISO/IEC 27018:2025 — cópia de estudo com tradução automática.
 - ISO/IEC 27018:2025 — cópia de estudo com tradução automática.
 - Projeto ABNT NBR ISO/IEC 27701 de outubro de 2019 — documento de consulta sem valor normativo.
 - CIS Critical Security Controls v8.1.2, março de 2025.
