@@ -2,7 +2,7 @@
 
 ## 1. Objetivo
 
-Neste documento organizei como as referências complementares podem apoiar a aplicação do Guia Técnico de Implementação do SGSI. A intenção é ampliar a utilidade do projeto sem misturar requisitos normativos, orientações técnicas, modelos de implementação e estruturas de priorização.
+Neste documento organizei como as referências complementares podem apoiar a aplicação do Guia Técnico de Implementação do SGSI. A intenção é apoiar a implementação e a operação de um SGSI voltado à proteção efetiva da organização, sem misturar requisitos normativos, orientações técnicas, modelos de implementação e estruturas de priorização. O propósito não se restringe à preparação para certificação: inclui estabelecer e manter medidas de prevenção, detecção, resposta e recuperação, proporcionais aos riscos e às necessidades do negócio.
 
 A ISO/IEC 27001:2022, considerada com a Emenda 1:2024, estabelece os requisitos auditáveis para a certificação do SGSI. As demais fontes deste documento são referências de orientação, apoio técnico ou extensões de escopo. Elas não substituem nem ampliam por si mesmas os critérios de certificação do SGSI.
 
@@ -66,9 +66,9 @@ Os grupos de implementação são:
 - **IG2:** amplia o conjunto anterior e considera ambientes com múltiplos departamentos, perfis de risco e maior complexidade operacional.
 - **IG3:** inclui os grupos anteriores e acrescenta salvaguardas para contextos com dados sensíveis e maior capacidade técnica de segurança.
 
-Os grupos são referências de priorização. A classificação de uma organização deve considerar seu perfil, sua exposição, os ativos, os dados, as obrigações, os recursos e a tolerância ao risco. Não se deve atribuir um grupo apenas pelo porte da organização.
+Os grupos são referências de priorização para organizar a adoção progressiva de salvaguardas. A classificação de uma organização deve considerar seu perfil, sua exposição, os ativos, os dados, as obrigações, os recursos e a tolerância ao risco. Não se deve atribuir um grupo apenas pelo porte da organização. Os grupos não representam níveis de certificação nem garantem, isoladamente, um determinado nível de segurança.
 
-No contexto deste guia, os CIS Controls podem apoiar:
+No contexto deste guia, os CIS Controls são uma referência prática para transformar a análise de riscos em iniciativas e salvaguardas técnicas priorizadas. Podem apoiar:
 
 - a identificação de medidas técnicas que contribuam para tratar riscos;
 - a organização de iniciativas de segurança por prioridade;
@@ -76,7 +76,7 @@ No contexto deste guia, os CIS Controls podem apoiar:
 - a discussão de requisitos mínimos e evolução progressiva;
 - a definição de métricas e evidências para salvaguardas selecionadas.
 
-A seleção das salvaguardas deve ser justificada no contexto da organização. O uso dos CIS Controls não substitui a avaliação de riscos nem a SoA da ISO/IEC 27001.
+A seleção das salvaguardas deve ser justificada no contexto da organização. O uso dos CIS Controls não substitui a avaliação de riscos nem a SoA da ISO/IEC 27001. Ao mesmo tempo, a aplicação do framework não deve ficar restrita aos controles que tenham correspondência direta com o Anexo A: a organização pode adotar salvaguardas adicionais quando necessárias para tratar seus riscos, proteger seus ativos e cumprir obrigações legais ou contratuais. A SoA documenta a relação com os controles de referência da ISO/IEC 27001; o programa de segurança da organização pode e deve contemplar outras medidas pertinentes.
 
 ### 5.1. Cuidados com mapeamentos
 
@@ -179,7 +179,15 @@ Antes de incluir uma nova referência ou alterar um documento, aplico os seguint
 9. Preservar a rastreabilidade das alterações.
 10. Não declarar conformidade ou eficácia sem evidências apropriadas.
 
-## 10. Limites desta documentação
+## 10. Papel das referências na implementação do programa de segurança
+
+As referências utilizadas no projeto cumprem funções complementares. A ISO/IEC 27001 estrutura o sistema de gestão e estabelece seus requisitos; a ISO/IEC 27002 orienta a seleção e a implementação de controles; a ISO/IEC 27005 apoia a gestão de riscos; as demais normas da família tratam de temas específicos, como implementação, auditoria, nuvem e privacidade; e os CIS Controls oferecem salvaguardas priorizadas para fortalecer a defesa cibernética.
+
+A empresa que utilizar esta metodologia deve transformar essas referências em um programa de segurança coerente com seu contexto. Isso envolve, entre outras atividades, governança, inventário e classificação de ativos, gestão de identidades, proteção de endpoints e redes, vulnerabilidades e correções, segurança de aplicações, monitoramento, gestão de incidentes, continuidade, recuperação, segurança física, conscientização e gestão de terceiros. A seleção concreta depende da avaliação de riscos e das obrigações aplicáveis.
+
+A segurança não é um estado absoluto nem pode ser garantida pela adoção de uma norma ou framework. O resultado pretendido é reduzir a exposição, dificultar a materialização de ameaças, detectar eventos relevantes, limitar impactos, recuperar serviços e aprimorar continuamente as medidas de proteção.
+
+## 11. Limites desta documentação
 
 As referências complementares ampliam a análise técnica do guia, mas não substituem as publicações oficiais nem dispensam a avaliação do contexto organizacional.
 
@@ -187,7 +195,7 @@ Os materiais anexados são considerados fontes técnicas válidas e fiéis ao co
 
 Os exemplos e as relações descritas neste documento são orientações metodológicas. A aplicação em uma organização real exige análise, seleção, aprovação, implementação e avaliação pelos responsáveis competentes.
 
-## 11. Referências utilizadas
+## 12. Referências utilizadas
 
 - ISO/IEC 27001:2022, incluindo Emenda 1:2024.
 - ISO/IEC 27002:2022.
