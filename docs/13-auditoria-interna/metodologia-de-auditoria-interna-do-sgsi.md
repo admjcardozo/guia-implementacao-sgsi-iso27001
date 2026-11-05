@@ -16,7 +16,7 @@ O documento apresenta orientações metodológicas e exemplos para apoiar a cons
 
 ## 2. Referências normativas e relação com o SGSI
 
-A principal referência para os requisitos do SGSI é a ISO/IEC 27001:2022, incluindo a Emenda 1:2024, quando pertinente ao contexto da organização.
+A ISO/IEC 27001:2022, considerada em conjunto com a Emenda 1:2024, é a referência de requisitos auditáveis para avaliar a conformidade do SGSI e sua certificação.
 
 São especialmente relevantes:
 
@@ -455,7 +455,7 @@ Esses critérios são uma lista de verificação metodológica, não uma declara
 
 Esta metodologia não substitui a consulta às versões oficiais e vigentes das normas aplicáveis nem a avaliação do contexto específico da organização.
 
-A ISO 19011:2026 deve ser utilizada como referência de orientação para auditorias de sistemas de gestão. Os requisitos de conformidade do SGSI devem ser avaliados principalmente com base na ISO/IEC 27001:2022 e em outros requisitos que sejam aplicáveis à organização.
+A ISO 19011:2026 deve ser utilizada como referência de orientação para auditorias de sistemas de gestão. Para avaliação de conformidade e certificação do SGSI, os critérios de requisitos do sistema de gestão são os estabelecidos pela ISO/IEC 27001:2022, considerada com a Emenda 1:2024. Obrigações legais, regulatórias e contratuais aplicáveis também devem ser consideradas no escopo pertinente, mas não se confundem com requisitos de certificação da ISO/IEC 27001.
 
 A execução de auditorias internas não garante, isoladamente, a conformidade do SGSI ou a obtenção de certificação. Os resultados dependem, entre outros fatores, da abrangência, da competência dos auditores, da qualidade das evidências e da efetiva implementação dos processos de gestão.
 
@@ -495,4 +495,4 @@ Na preparação do programa e das auditorias individuais, essa referência pode 
 
 A ISO/IEC 27007 complementa as diretrizes gerais da ISO 19011 e os requisitos de auditoria interna da ISO/IEC 27001. Não substitui nenhuma dessas referências.
 
-O PDF utilizado no desenvolvimento deste guia corresponde à ABNT NBR ISO/IEC 27007:2021. Antes de uma aplicação formal, devem ser verificadas a edição oficial e as referências normativas vigentes.
+O PDF utilizado no desenvolvimento deste guia corresponde à ABNT NBR ISO/IEC 27007:2021. Ele é utilizado como orientação complementar específica para auditorias de SGSI, sem substituir os requisitos auditáveis da ISO/IEC 27001.
