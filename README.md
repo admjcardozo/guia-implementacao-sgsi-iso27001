@@ -2,13 +2,13 @@
 
 ![Capa do guia técnico de implementação do SGSI](assets/capa-projeto-sgsi.png)
 
-**Projeto autoral de referência para planejamento, implementação, operação, avaliação e melhoria de um Sistema de Gestão de Segurança da Informação (SGSI), com foco em gestão de riscos, controles de segurança, documentação e preparação para certificação.**
+**Projeto autoral de referência para planejar, implementar, operar, avaliar e melhorar um Sistema de Gestão de Segurança da Informação (SGSI), com foco na proteção efetiva dos ativos, processos, informações e serviços da organização. A ISO/IEC 27001 fornece a estrutura de requisitos do sistema de gestão, enquanto normas complementares e frameworks como os CIS Controls apoiam a definição e a implementação de medidas de segurança.**
 
 > **Natureza do projeto:** conceitual, educacional e profissional. Este repositório não representa a implementação de um SGSI em uma organização real nem declara conformidade ou certificação organizacional.
 
 ## 1. Sobre o projeto
 
-Desenvolvi este guia para organizar, em uma sequência de trabalho, os principais elementos envolvidos na estruturação de um Sistema de Gestão de Segurança da Informação (SGSI) com referência na ISO/IEC 27001:2022.
+Desenvolvi este guia para organizar os elementos necessários à construção e à manutenção de um Sistema de Gestão de Segurança da Informação (SGSI), tendo a ISO/IEC 27001:2022 como referência para o sistema de gestão, mas sem limitar o propósito do trabalho à obtenção de certificação. O objetivo é orientar uma organização a estabelecer uma postura de segurança consistente, baseada em riscos, com medidas preventivas, detectivas, responsivas e de recuperação.
 
 O repositório reúne documentos de referência, metodologia, orientações de governança e gestão de riscos, estrutura de controles, políticas, procedimentos e modelos de registros.
 
@@ -26,12 +26,15 @@ O material destina-se a profissionais de Segurança da Informação, GRC (*Gover
 - Orientar a elaboração da Declaração de Aplicabilidade (*Statement of Applicability* — SoA).
 - Abordar controles organizacionais, de pessoas, físicos e tecnológicos.
 - Definir práticas de monitoramento, medição, auditoria interna e melhoria contínua.
-- Apoiar a organização documental e a preparação para auditorias externas de certificação.
+- Estabelecer uma abordagem de segurança que proteja informações, ativos, processos e serviços, reduzindo a exposição a ameaças e vulnerabilidades.
+- Integrar medidas preventivas, detectivas, responsivas e de recuperação, considerando pessoas, processos, tecnologia, instalações e terceiros.
+- Utilizar referências complementares, incluindo CIS Controls, para apoiar a seleção, priorização e evolução das salvaguardas técnicas.
+- Apoiar a organização documental e, quando for um objetivo da organização, a preparação para auditorias externas de certificação.
 - Apresentar exemplos conceituais que possam ser adaptados a diferentes contextos organizacionais.
 
 ## 3. Escopo
 
-O guia contempla o ciclo de vida de um SGSI, desde a governança e o planejamento inicial até a preparação para certificação e a manutenção do sistema de gestão.
+O guia contempla o ciclo de vida de um SGSI, desde a governança e o planejamento inicial até a implementação, operação, monitoramento, resposta a incidentes, recuperação e melhoria contínua. A preparação para certificação é uma possibilidade de avaliação externa do sistema, não a finalidade exclusiva do projeto.
 
 Os domínios documentais incluem:
 
@@ -67,6 +70,8 @@ A documentação utiliza como referências principais:
 | ISO 19011:2026 | Diretrizes para auditoria de sistemas de gestão. |
 | ISO/IEC 17021-1 | Requisitos para organismos que realizam auditoria e certificação de sistemas de gestão. |
 | Lei nº 13.709/2018 — LGPD | Referência legal para proteção de dados pessoais, quando aplicável. |
+
+Como referências complementares para o desenho e a priorização de medidas de segurança, o projeto também utiliza as normas da família ISO/IEC 27000 aplicáveis a implementação, auditoria, nuvem e privacidade, além dos **CIS Critical Security Controls v8.1.2** e do **CIS Controls Roadmap (novembro de 2024)**. Essas fontes apoiam a construção da capacidade de segurança da organização; não são requisitos adicionais de certificação ISO/IEC 27001.
 
 As referências específicas, suas edições e sua aplicabilidade devem ser verificadas nos documentos técnicos correspondentes e nas fontes oficiais.
 
@@ -130,7 +135,7 @@ Os documentos devem ser adaptados ao contexto organizacional, aos riscos, aos re
 
 O guia apoia o planejamento e a preparação para auditorias, mas não garante certificação, não substitui a consulta às normas oficiais e não constitui parecer jurídico ou garantia de conformidade.
 
-A certificação do SGSI é avaliada com base nos requisitos aplicáveis da ISO/IEC 27001:2022, considerada com a Emenda 1:2024, e nas evidências da organização avaliada. Outras normas podem fornecer orientação técnica ou tratar de escopos complementares, mas não substituem os requisitos auditáveis da ISO/IEC 27001 para essa certificação.
+A certificação do SGSI, quando pretendida, é avaliada com base nos requisitos aplicáveis da ISO/IEC 27001:2022, considerada com a Emenda 1:2024, e nas evidências da organização avaliada. Esse recorte de certificação não limita o alcance do projeto: a implementação de segurança deve considerar também os riscos e as necessidades reais da organização, inclusive medidas que ultrapassem o conjunto de controles de referência do Anexo A. Normas complementares e frameworks como os CIS Controls podem apoiar o desenho e a priorização dessas medidas, sem substituir os requisitos da ISO/IEC 27001 para a certificação.
 
 A publicação de documentos neste repositório demonstra a elaboração de material de referência. Não demonstra, por si só, que os processos ou controles descritos tenham sido implementados em uma organização.
 
@@ -218,6 +223,6 @@ A publicação pública no GitHub continua sujeita aos Termos de Serviço da pla
 
 ## 13. Referências complementares
 
-Além das referências principais, incluí um documento para orientar o uso de materiais complementares sobre implementação do SGSI, auditoria, gestão de riscos, serviços em nuvem, privacidade e CIS Controls. A seleção das referências considera a edição mais atual disponível, sem misturar conteúdos de versões distintas.
+Além das referências principais, incluí um documento para orientar o uso de materiais complementares sobre implementação do SGSI, auditoria, gestão de riscos, serviços em nuvem, privacidade e CIS Controls. Essas referências são parte da abordagem técnica de implementação e proteção da organização, não apenas de sua preparação para certificação. A seleção das referências considera a edição mais atual disponível, sem misturar conteúdos de versões distintas.
 
 Consulte [Uso das Referências Complementares de Segurança da Informação](docs/17-referencias-e-glossario/uso-das-referencias-complementares-de-seguranca-da-informacao.md). O documento diferencia requisitos normativos, orientações técnicas e materiais de estudo, além de registrar limitações de edição e licença.
