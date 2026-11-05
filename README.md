@@ -60,11 +60,11 @@ A documentação utiliza como referências principais:
 
 | Referência | Aplicação no guia |
 |---|---|
-| ISO/IEC 27001:2022 | Requisitos para o SGSI e referência para os controles do Anexo A. |
+| ISO/IEC 27001:2022 + Emenda 1:2024 | Requisitos auditáveis para certificação do SGSI e referência para os controles do Anexo A. |
 | ISO/IEC 27002:2022 | Orientações para seleção e implementação de controles de Segurança da Informação. |
-| ISO/IEC 27005 | Referência complementar para gestão de riscos de Segurança da Informação. |
+| ISO/IEC 27005:2022 | Diretrizes complementares para gestão de riscos de Segurança da Informação. |
 | ISO 31000 | Princípios e diretrizes gerais para gestão de riscos. |
-| ISO 19011 | Diretrizes para auditoria de sistemas de gestão. |
+| ISO 19011:2026 | Diretrizes para auditoria de sistemas de gestão. |
 | ISO/IEC 17021-1 | Requisitos para organismos que realizam auditoria e certificação de sistemas de gestão. |
 | Lei nº 13.709/2018 — LGPD | Referência legal para proteção de dados pessoais, quando aplicável. |
 
@@ -130,7 +130,7 @@ Os documentos devem ser adaptados ao contexto organizacional, aos riscos, aos re
 
 O guia apoia o planejamento e a preparação para auditorias, mas não garante certificação, não substitui a consulta às normas oficiais e não constitui parecer jurídico ou garantia de conformidade.
 
-A certificação depende de avaliação independente por organismo certificador competente, considerando os requisitos aplicáveis e as evidências da organização avaliada.
+A certificação do SGSI é avaliada com base nos requisitos aplicáveis da ISO/IEC 27001:2022, considerada com a Emenda 1:2024, e nas evidências da organização avaliada. Outras normas podem fornecer orientação técnica ou tratar de escopos complementares, mas não substituem os requisitos auditáveis da ISO/IEC 27001 para essa certificação.
 
 A publicação de documentos neste repositório demonstra a elaboração de material de referência. Não demonstra, por si só, que os processos ou controles descritos tenham sido implementados em uma organização.
 
@@ -182,7 +182,7 @@ A elaboração e a revisão dos artefatos consideram os seguintes critérios:
 
 ## 10. Situação do projeto
 
-O repositório continua em desenvolvimento. A versão `v1.0.0` representa a primeira edição consolidada publicada, não o encerramento do trabalho. Os documentos e modelos seguem sujeitos a revisão, ampliação e ajustes de coerência.
+O repositório continua em desenvolvimento. A versão `v1.1.0` registra esta revisão das referências normativas, o alinhamento das edições e os ajustes de hierarquia entre requisitos do SGSI, diretrizes e extensões. Não representa o encerramento do trabalho. Os documentos e modelos seguem sujeitos a revisão, ampliação e ajustes de coerência.
 
 A publicação de um artefato representa a disponibilização de conteúdo documental no repositório. Não equivale a uma validação independente de conformidade, nem comprova que os controles descritos tenham sido implementados ou testados em uma organização real.
 
@@ -202,7 +202,7 @@ O conteúdo deste repositório é um material autoral de referência. A utiliza�
 
 **Projeto:** Guia Técnico de Implementação do SGSI — ISO/IEC 27001:2022  
 **Autor:** José Eduardo Moura Cardozo  
-**Status:** Em desenvolvimento contínuo — versão publicada `v1.0.0`  
+**Status:** Em desenvolvimento contínuo — versão publicada `v1.1.0`  
 **Natureza:** Projeto autoral, conceitual e educacional
 
 ## 12. Direitos autorais e condições de uso
@@ -218,6 +218,6 @@ A publicação pública no GitHub continua sujeita aos Termos de Serviço da pla
 
 ## 13. Referências complementares
 
-Além das referências principais, incluí um documento para orientar o uso de materiais complementares sobre implementação do SGSI, auditoria, gestão de riscos, serviços em nuvem, privacidade e CIS Controls.
+Além das referências principais, incluí um documento para orientar o uso de materiais complementares sobre implementação do SGSI, auditoria, gestão de riscos, serviços em nuvem, privacidade e CIS Controls. A seleção das referências considera a edição mais atual disponível, sem misturar conteúdos de versões distintas.
 
 Consulte [Uso das Referências Complementares de Segurança da Informação](docs/17-referencias-e-glossario/uso-das-referencias-complementares-de-seguranca-da-informacao.md). O documento diferencia requisitos normativos, orientações técnicas e materiais de estudo, além de registrar limitações de edição e licença.
