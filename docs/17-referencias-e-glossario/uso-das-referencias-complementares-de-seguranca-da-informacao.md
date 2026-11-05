@@ -15,7 +15,7 @@ Este documento é metodológico. Não representa uma avaliação de conformidade
 | ISO/IEC 27001:2022 + Emenda 1:2024 | Requisitos do SGSI | Determinar os requisitos aplicáveis, estruturar o sistema de gestão e orientar a avaliação de conformidade. |
 | ISO/IEC 27002:2022 | Orientação para controles | Apoiar a interpretação, o desenho, a implementação e a avaliação dos controles necessários. |
 | ISO/IEC 27003:2020 | Orientação para implementação do SGSI | Apoiar o planejamento e a organização do trabalho relacionado às cláusulas da ISO/IEC 27001. |
-| ISO/IEC 27005:2022 | Orientação para gestão de riscos de SI | Apoiar o estabelecimento do contexto, critérios, avaliação, tratamento, comunicação e monitoramento dos riscos. |
+| ISO/IEC 27005:2022 | Orientação para gestão de riscos de SI | Referência publicada para apoiar o estabelecimento do contexto, critérios, avaliação, tratamento, comunicação e monitoramento dos riscos. |
 | ISO/IEC 27007:2021 | Orientação para auditoria de SGSI | Complementar o programa e os métodos de auditoria interna, considerando as particularidades do SGSI. |
 | ISO/IEC 27017:2026 | Orientação para controles em serviços de nuvem | Edição vigente publicada em julho de 2026; utilizar como referência principal para controles e responsabilidades em serviços de nuvem. |
 | ISO/IEC 27018:2025 | Orientação para proteção de dados pessoais em nuvens públicas | Considerar quando o cenário envolver provedores de nuvem pública que processem dados pessoais, conforme os papéis das partes. |
@@ -192,7 +192,7 @@ Os exemplos e as relações descritas neste documento são orientações metodol
 - ISO/IEC 27001:2022, incluindo Emenda 1:2024.
 - ISO/IEC 27002:2022.
 - ABNT NBR ISO/IEC 27003:2020.
-- ISO/IEC 27005:2022 — considerada por meio do Projeto de Revisão ABNT de abril de 2023 anexado, identificado como documento sem valor normativo.
+- ISO/IEC 27005:2022 — referência publicada; o projeto de revisão ABNT de abril de 2023 anexado é utilizado como material complementar de estudo da evolução do documento.
 - ABNT NBR ISO/IEC 27007:2021.
 - ISO/IEC 27018:2025 — cópia de estudo com tradução automática.
 - ISO/IEC 27018:2025 — cópia de estudo com tradução automática.
