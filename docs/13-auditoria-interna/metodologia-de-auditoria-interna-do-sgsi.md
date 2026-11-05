@@ -477,3 +477,22 @@ A situação indicada nesta tabela descreve o estado documental deste arquivo no
 - ISO 19011:2026 — *Guidelines for auditing management systems*.
 
 Consultar as publicações oficiais para confirmar os requisitos e as orientações aplicáveis.
+
+
+## 15. Aplicação das diretrizes específicas para auditoria de SGSI
+
+Além das diretrizes gerais de auditoria, a ABNT NBR ISO/IEC 27007:2021 deve ser considerada como referência complementar para tratar as particularidades de auditorias de Sistemas de Gestão da Segurança da Informação.
+
+Na preparação do programa e das auditorias individuais, essa referência pode apoiar a análise de aspectos como:
+
+- riscos e oportunidades associados ao programa de auditoria;
+- objetivos, escopo e critérios de cada auditoria;
+- seleção dos métodos e dos integrantes da equipe;
+- competência necessária para avaliar processos e controles de segurança;
+- tempo e recursos para análise de informações documentadas e evidências técnicas;
+- proteção da confidencialidade das informações acessadas;
+- avaliação das relações entre riscos, controles, SoA e resultados operacionais.
+
+A ISO/IEC 27007 complementa as diretrizes gerais da ISO 19011 e os requisitos de auditoria interna da ISO/IEC 27001. Não substitui nenhuma dessas referências.
+
+O PDF utilizado no desenvolvimento deste guia corresponde à ABNT NBR ISO/IEC 27007:2021. Antes de uma aplicação formal, devem ser verificadas a edição oficial e as referências normativas vigentes.
