@@ -216,7 +216,7 @@ As normas ISO/IEC e outras referências mencionadas permanecem sujeitas aos dire
 A publicação pública no GitHub continua sujeita aos Termos de Serviço da plataforma, inclusive às permissões necessárias para visualizar e fazer *fork* do repositório dentro do GitHub.
 
 
-### Referências complementares
+## 13. Referências complementares
 
 Além das referências principais, incluí um documento para orientar o uso de materiais complementares sobre implementação do SGSI, auditoria, gestão de riscos, serviços em nuvem, privacidade e CIS Controls.
 
