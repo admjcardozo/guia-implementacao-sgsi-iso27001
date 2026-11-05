@@ -242,6 +242,7 @@ A existência desta lista não comprova que todas as referências tenham sido in
 |---|---|---|
 | 1.0 | Criação do documento de referências técnicas e normativas do projeto. | Inicial |
 | 1.1 | Atualização da hierarquia normativa e alinhamento das referências às edições vigentes, incluindo ISO/IEC 27017:2026 e ISO/IEC 27701:2025. | Revisado |
+| 1.2 | Inclusão explícita do roteiro de adoção dos CIS Controls e alinhamento do registro central de referências. | Revisado |
 
 ---
 
@@ -305,7 +306,15 @@ Os grupos IG1, IG2 e IG3 devem ser interpretados considerando perfil de risco, c
 
 O material informa licença CC BY-NC-ND 4.0. O repositório utiliza essa referência sem republicar ou distribuir versões modificadas das descrições e salvaguardas CIS.
 
-### 10.7. Materiais de apoio e planilhas de estudo
+### 10.7. A Roadmap to the CIS Critical Security Controls (novembro de 2024)
+
+O roteiro de adoção do CIS Critical Security Controls complementa o framework ao apresentar orientações para organizar sua implementação progressiva e utilizar os recursos de avaliação associados.
+
+**Aplicação no projeto:** apoiar o planejamento da adoção dos CIS Controls, a compreensão dos grupos de implementação e a organização de etapas de evolução. O roteiro é uma referência de apoio; não constitui requisito da ISO/IEC 27001, nível de certificação ou garantia de eficácia.
+
+Sua utilização deve respeitar os termos de licença aplicáveis ao material CIS. O projeto pode referenciar e descrever sua aplicação de forma autoral, sem republicar ou distribuir conteúdo protegido em desacordo com a licença.
+
+### 10.8. Materiais de apoio e planilhas de estudo
 
 O acervo dos 93 controles do Anexo A, o ebook ISO/IEC 27001 Lead Implementer e as planilhas CIS foram utilizados como materiais de apoio à análise e à organização metodológica.
 
