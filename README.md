@@ -182,7 +182,7 @@ A elaboração e a revisão dos artefatos consideram os seguintes critérios:
 
 ## 10. Situação do projeto
 
-O repositório continua em desenvolvimento. A versão `v1.1.0` registra esta revisão das referências normativas, o alinhamento das edições e os ajustes de hierarquia entre requisitos do SGSI, diretrizes e extensões. Não representa o encerramento do trabalho. Os documentos e modelos seguem sujeitos a revisão, ampliação e ajustes de coerência.
+O repositório continua em desenvolvimento. A revisão documental `v1.1.0` registra a atualização das referências normativas, o alinhamento das edições e os ajustes de hierarquia entre requisitos do SGSI, diretrizes e extensões. A tag de release correspondente ainda precisa ser criada no GitHub. Os documentos e modelos seguem sujeitos a revisão, ampliação e ajustes de coerência.
 
 A publicação de um artefato representa a disponibilização de conteúdo documental no repositório. Não equivale a uma validação independente de conformidade, nem comprova que os controles descritos tenham sido implementados ou testados em uma organização real.
 
@@ -202,7 +202,7 @@ O conteúdo deste repositório é um material autoral de referência. A utiliza�
 
 **Projeto:** Guia Técnico de Implementação do SGSI — ISO/IEC 27001:2022  
 **Autor:** José Eduardo Moura Cardozo  
-**Status:** Em desenvolvimento contínuo — versão publicada `v1.1.0`  
+**Status:** Em desenvolvimento contínuo — revisão documental `v1.1.0` (tag de release pendente)  
 **Natureza:** Projeto autoral, conceitual e educacional
 
 ## 12. Direitos autorais e condições de uso
