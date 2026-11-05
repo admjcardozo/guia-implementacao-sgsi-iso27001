@@ -171,7 +171,13 @@ Consulte [Uso das Referências Complementares de Segurança da Informação](17-
 
 O documento explica como utilizar orientações de implementação, auditoria, gestão de riscos, serviços em nuvem, privacidade e CIS Controls sem confundir essas fontes com os requisitos da ISO/IEC 27001.
 
-### 7.3. Glossário
+### 7.3. Matriz de rastreabilidade
+
+Consulte [Matriz de Rastreabilidade entre Referências e Documentos do SGSI](17-referencias-e-glossario/matriz-de-rastreabilidade-referencias-documentos.md).
+
+A matriz relaciona normas, legislação e frameworks aos domínios, documentos e modelos do guia, apoiando a análise de impacto e a manutenção das referências.
+
+### 7.4. Glossário
 
 Consulte [Glossário de Segurança da Informação e SGSI](17-referencias-e-glossario/glossario-de-seguranca-da-informacao.md).
 
