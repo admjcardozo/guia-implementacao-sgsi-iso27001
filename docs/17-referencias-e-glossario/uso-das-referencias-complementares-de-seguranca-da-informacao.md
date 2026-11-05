@@ -203,7 +203,6 @@ Os exemplos e as relações descritas neste documento são orientações metodol
 - ISO/IEC 27005:2022 — referência publicada; o projeto de revisão ABNT de abril de 2023 anexado é utilizado como material complementar de estudo da evolução do documento.
 - ABNT NBR ISO/IEC 27007:2021.
 - ISO/IEC 27018:2025 — cópia de estudo com tradução automática.
-- ISO/IEC 27018:2025 — cópia de estudo com tradução automática.
 - Projeto ABNT NBR ISO/IEC 27701 de outubro de 2019 — documento de consulta sem valor normativo.
 - CIS Critical Security Controls v8.1.2, março de 2025.
 - A Roadmap to the CIS Critical Security Controls, novembro de 2024.
